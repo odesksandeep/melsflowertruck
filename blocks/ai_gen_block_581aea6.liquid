@@ -1,0 +1,348 @@
+{% doc %}
+  @prompt
+    Add CSS to make product variant size buttons display on a single horizontally scrollable row on mobile, preventing them from wrapping onto multiple lines. The buttons should stay inline and scroll horizontally if there are too many to fit the screen width.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-variant-scroll-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+  }
+
+  .ai-variant-scroll__wrapper-{{ ai_gen_id }} {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: {{ block.settings.scrollbar_color }} transparent;
+  }
+
+  .ai-variant-scroll__wrapper-{{ ai_gen_id }}::-webkit-scrollbar {
+    height: {{ block.settings.scrollbar_height }}px;
+  }
+
+  .ai-variant-scroll__wrapper-{{ ai_gen_id }}::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .ai-variant-scroll__wrapper-{{ ai_gen_id }}::-webkit-scrollbar-thumb {
+    background-color: {{ block.settings.scrollbar_color }};
+    border-radius: {{ block.settings.scrollbar_height | divided_by: 2 }}px;
+  }
+
+  .ai-variant-scroll__container-{{ ai_gen_id }} {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: {{ block.settings.button_gap }}px;
+    padding-bottom: {{ block.settings.padding_bottom }}px;
+  }
+
+  .ai-variant-scroll__button-{{ ai_gen_id }} {
+    flex: 0 0 auto;
+    min-width: {{ block.settings.min_button_width }}px;
+    padding: {{ block.settings.button_padding_vertical }}px {{ block.settings.button_padding_horizontal }}px;
+    background-color: {{ block.settings.button_bg_color }};
+    color: {{ block.settings.button_text_color }};
+    border: {{ block.settings.button_border_width }}px solid {{ block.settings.button_border_color }};
+    border-radius: {{ block.settings.button_border_radius }}px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: {{ block.settings.button_font_size }}px;
+    text-align: center;
+  }
+
+  .ai-variant-scroll__button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_bg_color }};
+    color: {{ block.settings.button_hover_text_color }};
+    border-color: {{ block.settings.button_hover_border_color }};
+  }
+
+  .ai-variant-scroll__button-{{ ai_gen_id }}.active {
+    background-color: {{ block.settings.button_active_bg_color }};
+    color: {{ block.settings.button_active_text_color }};
+    border-color: {{ block.settings.button_active_border_color }};
+  }
+
+  @media screen and (min-width: 750px) {
+    .ai-variant-scroll__wrapper-{{ ai_gen_id }} {
+      {% if block.settings.enable_scroll_desktop == false %}
+        overflow-x: visible;
+      {% endif %}
+    }
+
+    .ai-variant-scroll__container-{{ ai_gen_id }} {
+      {% if block.settings.enable_scroll_desktop == false %}
+        flex-wrap: wrap;
+      {% endif %}
+    }
+  }
+{% endstyle %}
+
+<variant-scroll-{{ ai_gen_id }} class="ai-variant-scroll-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-variant-scroll__wrapper-{{ ai_gen_id }}">
+    <div class="ai-variant-scroll__container-{{ ai_gen_id }}">
+      {% if product.variants.size > 0 %}
+        {% for variant in product.variants %}
+          <button
+            class="ai-variant-scroll__button-{{ ai_gen_id }} {% if variant == product.selected_or_first_available_variant %}active{% endif %}"
+            data-variant-id="{{ variant.id }}"
+            {% unless variant.available %}disabled{% endunless %}
+          >
+            {{ variant.title }}
+          </button>
+        {% endfor %}
+      {% else %}
+        <button class="ai-variant-scroll__button-{{ ai_gen_id }}">Small</button>
+        <button class="ai-variant-scroll__button-{{ ai_gen_id }} active">Medium</button>
+        <button class="ai-variant-scroll__button-{{ ai_gen_id }}">Large</button>
+        <button class="ai-variant-scroll__button-{{ ai_gen_id }}">X-Large</button>
+        <button class="ai-variant-scroll__button-{{ ai_gen_id }}">XX-Large</button>
+      {% endif %}
+    </div>
+  </div>
+</variant-scroll-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class VariantScroll{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.buttons = this.querySelectorAll('.ai-variant-scroll__button-{{ ai_gen_id }}');
+        this.setupEventListeners();
+      }
+
+      setupEventListeners() {
+        this.buttons.forEach((button) => {
+          button.addEventListener('click', () => {
+            this.buttons.forEach((btn) => btn.classList.remove('active'));
+            button.classList.add('active');
+
+            const variantId = button.getAttribute('data-variant-id');
+            if (variantId) {
+              this.updateVariant(variantId);
+            }
+          });
+        });
+      }
+
+      updateVariant(variantId) {
+        const variantInput = document.querySelector('input[name="id"]');
+        if (variantInput) {
+          variantInput.value = variantId;
+          variantInput.dispatchEvent(new Event('change', { bubbles: true }));
+        }
+      }
+    }
+
+    customElements.define('variant-scroll-{{ ai_gen_id }}', VariantScroll{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Variant size scroll",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_scroll_desktop",
+      "label": "Enable horizontal scroll on desktop",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "button_gap",
+      "label": "Gap between buttons",
+      "min": 4,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom padding",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Button style"
+    },
+    {
+      "type": "range",
+      "id": "min_button_width",
+      "label": "Minimum button width",
+      "min": 40,
+      "max": 120,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "button_padding_vertical",
+      "label": "Vertical padding",
+      "min": 4,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "button_padding_horizontal",
+      "label": "Horizontal padding",
+      "min": 8,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "button_font_size",
+      "label": "Font size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "button_border_width",
+      "label": "Border width",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "default": 1
+    },
+    {
+      "type": "header",
+      "content": "Button colors"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Background",
+      "default": "#f3f3f3"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Text",
+      "default": "#3d3935"
+    },
+    {
+      "type": "color",
+      "id": "button_border_color",
+      "label": "Border",
+      "default": "#3d3935"
+    },
+    {
+      "type": "header",
+      "content": "Button hover colors"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_bg_color",
+      "label": "Background",
+      "default": "#dbc2b1"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text_color",
+      "label": "Text",
+      "default": "#3d3935"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_border_color",
+      "label": "Border",
+      "default": "#3d3935"
+    },
+    {
+      "type": "header",
+      "content": "Button active colors"
+    },
+    {
+      "type": "color",
+      "id": "button_active_bg_color",
+      "label": "Background",
+      "default": "#3d3935"
+    },
+    {
+      "type": "color",
+      "id": "button_active_text_color",
+      "label": "Text",
+      "default": "#f3f3f3"
+    },
+    {
+      "type": "color",
+      "id": "button_active_border_color",
+      "label": "Border",
+      "default": "#3d3935"
+    },
+    {
+      "type": "header",
+      "content": "Scrollbar"
+    },
+    {
+      "type": "range",
+      "id": "scrollbar_height",
+      "label": "Height",
+      "min": 2,
+      "max": 10,
+      "step": 1,
+      "unit": "px",
+      "default": 4
+    },
+    {
+      "type": "color",
+      "id": "scrollbar_color",
+      "label": "Color",
+      "default": "#3d3935"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Variant size scroll"
+    }
+  ]
+}
+{% endschema %}
