@@ -900,39 +900,63 @@ class VariantRadios extends VariantSelects {
 
 customElements.define('variant-radios', VariantRadios);
 document.addEventListener('DOMContentLoaded', function() {
+  // Fix 1: Use proper selector for variant selects and radios
   document.querySelectorAll('variant-selects, variant-radios').forEach(function(picker) {
     picker.addEventListener('change', function() {
       const form = picker.closest('form');
       const variantId = form?.querySelector('[name="id"]')?.value;
       if (!variantId) return;
 
-      (function() {
-  function initPricePills() {
-    const pills = document.querySelectorAll('.product-form__input input[type="radio"]');
-    if (!pills.length) return;
-
-    pills.forEach(function(pill) {
-      pill.addEventListener('change', function() {
-        const variantId = document.querySelector('form[action="/cart/add"] [name="id"]')?.value;
-        if (!variantId) return;
-
-        fetch('/variants/' + variantId + '.js')
-          .then(r => r.json())
-          .then(function(variant) {
-            const formatted = (variant.price / 100).toLocaleString('en-NZ', {
-              style: 'currency',
-              currency: 'NZD'
-            });
-            document.querySelectorAll('.price-item--regular').forEach(function(el) {
-              el.innerHTML = formatted;
-            });
-          });
-      });
+      // Fix 2: Move the inner function outside and call it properly
+      updatePrice(variantId);
     });
-  }
+  });
 
-  if (document.readyState === 'loading') {
-  } else {
-    initPricePills();
-  }
-})();
+  // Fix 3: Initialize price pills
+  initPricePills();
+});
+
+// Fix 4: Extract the price update logic into a separate function
+function updatePrice(variantId) {
+  fetch('/variants/' + variantId + '.js')
+    .then(function(response) {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
+    .then(function(variant) {
+      const formatted = (variant.price / 100).toLocaleString('en-NZ', {
+        style: 'currency',
+        currency: 'NZD'
+      });
+      document.querySelectorAll('.price-item--regular').forEach(function(el) {
+        el.textContent = formatted; // Fix 5: Use textContent instead of innerHTML for security
+      });
+    })
+    .catch(function(error) {
+      console.error('Error updating price:', error);
+    });
+}
+
+// Fix 6: Properly defined and exported function
+function initPricePills() {
+  const pills = document.querySelectorAll('.product-form__input input[type="radio"]');
+  if (!pills.length) return;
+
+  pills.forEach(function(pill) {
+    pill.addEventListener('change', function() {
+      const variantId = document.querySelector('form[action="/cart/add"] [name="id"]')?.value;
+      if (!variantId) return;
+      
+      updatePrice(variantId);
+    });
+  });
+}
+
+// Fix 7: Ensure initPricePills is called after DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initPricePills);
+} else {
+  initPricePills();
+}
