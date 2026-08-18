@@ -900,29 +900,47 @@ class VariantRadios extends VariantSelects {
 
 customElements.define('variant-radios', VariantRadios);
 document.addEventListener('DOMContentLoaded', function() {
-  // Fix 1: Use proper selector for variant selects and radios
-  document.querySelectorAll('variant-selects, variant-radios').forEach(function(picker) {
+  // Only run on product pages, not cart pages
+  if (!document.querySelector('form[action="/cart/add"]')) return;
+
+  // Fix: Properly target variant selectors
+  const variantSelectors = document.querySelectorAll('variant-selects, variant-radios');
+  
+  variantSelectors.forEach(function(picker) {
     picker.addEventListener('change', function() {
       const form = picker.closest('form');
-      const variantId = form?.querySelector('[name="id"]')?.value;
+      if (!form) return;
+      
+      const variantId = form.querySelector('[name="id"]')?.value;
       if (!variantId) return;
 
-      // Fix 2: Move the inner function outside and call it properly
-      updatePrice(variantId);
+      updateProductPrice(variantId);
     });
   });
 
-  // Fix 3: Initialize price pills
-  initPricePills();
+  // Fix: Only target radio buttons that are for variants, not cart checkboxes
+  const variantPills = document.querySelectorAll('.product-form__input input[type="radio"]');
+  variantPills.forEach(function(pill) {
+    // Make sure it's a variant selector, not a cart option
+    if (pill.closest('.product-form__input') && !pill.closest('form[action="/cart"]')) {
+      pill.addEventListener('change', function() {
+        const variantId = document.querySelector('form[action="/cart/add"] [name="id"]')?.value;
+        if (variantId) {
+          updateProductPrice(variantId);
+        }
+      });
+    }
+  });
 });
 
-// Fix 4: Extract the price update logic into a separate function
-function updatePrice(variantId) {
+// Separate function for updating price
+function updateProductPrice(variantId) {
+  // Only run on product pages
+  if (!document.querySelector('form[action="/cart/add"]')) return;
+
   fetch('/variants/' + variantId + '.js')
     .then(function(response) {
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
+      if (!response.ok) throw new Error('Network response was not ok');
       return response.json();
     })
     .then(function(variant) {
@@ -930,33 +948,16 @@ function updatePrice(variantId) {
         style: 'currency',
         currency: 'NZD'
       });
+      
+      // Only update price elements, not cart buttons
       document.querySelectorAll('.price-item--regular').forEach(function(el) {
-        el.textContent = formatted; // Fix 5: Use textContent instead of innerHTML for security
+        // Make sure we're not updating cart total elements
+        if (!el.closest('.cart-item') && !el.closest('.cart-total')) {
+          el.textContent = formatted;
+        }
       });
     })
     .catch(function(error) {
       console.error('Error updating price:', error);
     });
-}
-
-// Fix 6: Properly defined and exported function
-function initPricePills() {
-  const pills = document.querySelectorAll('.product-form__input input[type="radio"]');
-  if (!pills.length) return;
-
-  pills.forEach(function(pill) {
-    pill.addEventListener('change', function() {
-      const variantId = document.querySelector('form[action="/cart/add"] [name="id"]')?.value;
-      if (!variantId) return;
-      
-      updatePrice(variantId);
-    });
-  });
-}
-
-// Fix 7: Ensure initPricePills is called after DOM is ready
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initPricePills);
-} else {
-  initPricePills();
 }
