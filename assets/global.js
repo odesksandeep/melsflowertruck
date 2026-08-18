@@ -900,17 +900,22 @@ class VariantRadios extends VariantSelects {
 
 customElements.define('variant-radios', VariantRadios);
 document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('variant-selects, variant-radios').forEach(function(picker) {
+    picker.addEventListener('change', function() {
+      const form = picker.closest('form');
+      const variantId = form?.querySelector('[name="id"]')?.value;
+      if (!variantId) return;
+
+      (function() {
   function initPricePills() {
     const pills = document.querySelectorAll('.product-form__input input[type="radio"]');
     if (!pills.length) return;
 
     pills.forEach(function(pill) {
       pill.addEventListener('change', function() {
-        const form = this.closest('form[action="/cart/add"]');
-        const variantId = form?.querySelector('[name="id"]')?.value;
+        const variantId = document.querySelector('form[action="/cart/add"] [name="id"]')?.value;
         if (!variantId) return;
 
-        // Use Shopify's built-in AJAX API
         fetch('/variants/' + variantId + '.js')
           .then(r => r.json())
           .then(function(variant) {
@@ -921,17 +926,13 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelectorAll('.price-item--regular').forEach(function(el) {
               el.innerHTML = formatted;
             });
-          })
-          .catch(function(error) {
-            console.warn('Price update failed:', error);
           });
       });
     });
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initPricePills);
   } else {
     initPricePills();
   }
-});
+})();
