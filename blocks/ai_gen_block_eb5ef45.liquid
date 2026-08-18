@@ -1,0 +1,551 @@
+{% doc %}
+  @prompt
+    Add a swipeable/scrollable image carousel to product cards in the collection grid, so shoppers can swipe through multiple product images without leaving the collection page. Should work smoothly on mobile with dot indicators or arrows to show there are more images.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-product-carousel-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+
+  .ai-product-carousel-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    overflow: hidden;
+    border-radius: {{ block.settings.image_border_radius }}px;
+    background-color: {{ block.settings.background_color }};
+  }
+
+  .ai-product-carousel-track-{{ ai_gen_id }} {
+    display: flex;
+    transition: transform 0.3s ease-out;
+    cursor: grab;
+    user-select: none;
+  }
+
+  .ai-product-carousel-track-{{ ai_gen_id }}.dragging {
+    cursor: grabbing;
+    transition: none;
+  }
+
+  .ai-product-carousel-slide-{{ ai_gen_id }} {
+    flex: 0 0 100%;
+    width: 100%;
+    position: relative;
+  }
+
+  .ai-product-carousel-slide-{{ ai_gen_id }} img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: {{ block.settings.image_ratio }};
+  }
+
+  .ai-product-carousel-slide-{{ ai_gen_id }} a {
+    display: block;
+    text-decoration: none;
+  }
+
+  .ai-product-carousel-nav-{{ ai_gen_id }} {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: {{ block.settings.arrow_background }};
+    color: {{ block.settings.arrow_color }};
+    border: none;
+    width: {{ block.settings.arrow_size }}px;
+    height: {{ block.settings.arrow_size }}px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2;
+    opacity: {{ block.settings.arrow_opacity | divided_by: 100.0 }};
+    transition: opacity 0.2s ease;
+  }
+
+  .ai-product-carousel-nav-{{ ai_gen_id }}:hover {
+    opacity: 1;
+  }
+
+  .ai-product-carousel-nav-{{ ai_gen_id }}:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+
+  .ai-product-carousel-nav-{{ ai_gen_id }}.prev {
+    left: {{ block.settings.arrow_offset }}px;
+  }
+
+  .ai-product-carousel-nav-{{ ai_gen_id }}.next {
+    right: {{ block.settings.arrow_offset }}px;
+  }
+
+  .ai-product-carousel-nav-{{ ai_gen_id }} svg {
+    width: calc({{ block.settings.arrow_size }}px * 0.5);
+    height: calc({{ block.settings.arrow_size }}px * 0.5);
+  }
+
+  .ai-product-carousel-dots-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: center;
+    gap: {{ block.settings.dot_spacing }}px;
+    padding: {{ block.settings.dots_padding }}px 0;
+    position: absolute;
+    bottom: {{ block.settings.dots_bottom_offset }}px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+  .ai-product-carousel-dot-{{ ai_gen_id }} {
+    width: {{ block.settings.dot_size }}px;
+    height: {{ block.settings.dot_size }}px;
+    border-radius: 50%;
+    background-color: {{ block.settings.dot_inactive_color }};
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    opacity: {{ block.settings.dot_opacity | divided_by: 100.0 }};
+  }
+
+  .ai-product-carousel-dot-{{ ai_gen_id }}.active {
+    background-color: {{ block.settings.dot_active_color }};
+    transform: scale(1.2);
+  }
+
+  .ai-product-carousel-dot-{{ ai_gen_id }}:hover {
+    opacity: 1;
+  }
+
+  {% if block.settings.hide_arrows_mobile %}
+    @media screen and (max-width: 749px) {
+      .ai-product-carousel-nav-{{ ai_gen_id }} {
+        display: none;
+      }
+    }
+  {% endif %}
+
+  {% if block.settings.hide_dots_desktop %}
+    @media screen and (min-width: 750px) {
+      .ai-product-carousel-dots-{{ ai_gen_id }} {
+        display: none;
+      }
+    }
+  {% endif %}
+{% endstyle %}
+
+<product-carousel-{{ ai_gen_id }} class="ai-product-carousel-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-product-carousel-wrapper-{{ ai_gen_id }}">
+    <div class="ai-product-carousel-track-{{ ai_gen_id }}" data-carousel-track>
+      {% if product.images.size > 0 %}
+        {% for image in product.images limit: block.settings.max_images %}
+          <div class="ai-product-carousel-slide-{{ ai_gen_id }}">
+            <a href="{{ product.url }}">
+              <img
+                src="{{ image | image_url: width: 800 }}"
+                alt="{{ image.alt | escape }}"
+                loading="lazy"
+                width="{{ image.width }}"
+                height="{{ image.height }}"
+              >
+            </a>
+          </div>
+        {% endfor %}
+      {% else %}
+        <div class="ai-product-carousel-slide-{{ ai_gen_id }}">
+          <a href="{{ product.url }}">
+            {{ 'product-1' | placeholder_svg_tag }}
+          </a>
+        </div>
+      {% endif %}
+    </div>
+
+    {% if block.settings.show_arrows and product.images.size > 1 %}
+      <button
+        class="ai-product-carousel-nav-{{ ai_gen_id }} prev"
+        aria-label="Previous image"
+        data-carousel-prev
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+      <button
+        class="ai-product-carousel-nav-{{ ai_gen_id }} next"
+        aria-label="Next image"
+        data-carousel-next
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+    {% endif %}
+
+    {% if block.settings.show_dots and product.images.size > 1 %}
+      <div class="ai-product-carousel-dots-{{ ai_gen_id }}" data-carousel-dots>
+        {% for image in product.images limit: block.settings.max_images %}
+          <button
+            class="ai-product-carousel-dot-{{ ai_gen_id }} {% if forloop.first %}active{% endif %}"
+            aria-label="Go to image {{ forloop.index }}"
+            data-carousel-dot="{{ forloop.index0 }}"
+          ></button>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</product-carousel-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ProductCarousel{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.currentIndex = 0;
+        this.isDragging = false;
+        this.startPos = 0;
+        this.currentTranslate = 0;
+        this.prevTranslate = 0;
+        this.animationID = 0;
+        this.threshold = 50;
+      }
+
+      connectedCallback() {
+        this.track = this.querySelector('[data-carousel-track]');
+        this.slides = this.querySelectorAll('.ai-product-carousel-slide-{{ ai_gen_id }}');
+        this.prevButton = this.querySelector('[data-carousel-prev]');
+        this.nextButton = this.querySelector('[data-carousel-next]');
+        this.dots = this.querySelectorAll('[data-carousel-dot]');
+
+        if (this.slides.length <= 1) return;
+
+        this.setupEventListeners();
+        this.updateCarousel();
+      }
+
+      setupEventListeners() {
+        if (this.prevButton) {
+          this.prevButton.addEventListener('click', () => this.goToPrev());
+        }
+
+        if (this.nextButton) {
+          this.nextButton.addEventListener('click', () => this.goToNext());
+        }
+
+        this.dots.forEach((dot) => {
+          dot.addEventListener('click', (e) => {
+            const index = parseInt(e.target.dataset.carouselDot);
+            this.goToSlide(index);
+          });
+        });
+
+        this.track.addEventListener('touchstart', this.touchStart.bind(this), { passive: true });
+        this.track.addEventListener('touchend', this.touchEnd.bind(this));
+        this.track.addEventListener('touchmove', this.touchMove.bind(this), { passive: true });
+
+        this.track.addEventListener('mousedown', this.touchStart.bind(this));
+        this.track.addEventListener('mouseup', this.touchEnd.bind(this));
+        this.track.addEventListener('mouseleave', this.touchEnd.bind(this));
+        this.track.addEventListener('mousemove', this.touchMove.bind(this));
+
+        this.track.addEventListener('dragstart', (e) => e.preventDefault());
+      }
+
+      touchStart(event) {
+        this.isDragging = true;
+        this.startPos = this.getPositionX(event);
+        this.animationID = requestAnimationFrame(this.animation.bind(this));
+        this.track.classList.add('dragging');
+      }
+
+      touchMove(event) {
+        if (this.isDragging) {
+          const currentPosition = this.getPositionX(event);
+          this.currentTranslate = this.prevTranslate + currentPosition - this.startPos;
+        }
+      }
+
+      touchEnd() {
+        this.isDragging = false;
+        cancelAnimationFrame(this.animationID);
+        this.track.classList.remove('dragging');
+
+        const movedBy = this.currentTranslate - this.prevTranslate;
+
+        if (movedBy < -this.threshold && this.currentIndex < this.slides.length - 1) {
+          this.currentIndex += 1;
+        }
+
+        if (movedBy > this.threshold && this.currentIndex > 0) {
+          this.currentIndex -= 1;
+        }
+
+        this.updateCarousel();
+      }
+
+      getPositionX(event) {
+        return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+      }
+
+      animation() {
+        this.setSliderPosition();
+        if (this.isDragging) requestAnimationFrame(this.animation.bind(this));
+      }
+
+      setSliderPosition() {
+        this.track.style.transform = `translateX(${this.currentTranslate}px)`;
+      }
+
+      goToPrev() {
+        if (this.currentIndex > 0) {
+          this.currentIndex -= 1;
+          this.updateCarousel();
+        }
+      }
+
+      goToNext() {
+        if (this.currentIndex < this.slides.length - 1) {
+          this.currentIndex += 1;
+          this.updateCarousel();
+        }
+      }
+
+      goToSlide(index) {
+        this.currentIndex = index;
+        this.updateCarousel();
+      }
+
+      updateCarousel() {
+        this.currentTranslate = this.currentIndex * -this.track.offsetWidth;
+        this.prevTranslate = this.currentTranslate;
+        this.setSliderPosition();
+
+        if (this.prevButton) {
+          this.prevButton.disabled = this.currentIndex === 0;
+        }
+
+        if (this.nextButton) {
+          this.nextButton.disabled = this.currentIndex === this.slides.length - 1;
+        }
+
+        this.dots.forEach((dot, index) => {
+          if (index === this.currentIndex) {
+            dot.classList.add('active');
+          } else {
+            dot.classList.remove('active');
+          }
+        });
+      }
+    }
+
+    customElements.define('product-carousel-{{ ai_gen_id }}', ProductCarousel{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Product image carousel",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Images"
+    },
+    {
+      "type": "range",
+      "id": "max_images",
+      "min": 2,
+      "max": 10,
+      "step": 1,
+      "label": "Maximum images",
+      "default": 5
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "label": "Image ratio",
+      "options": [
+        {
+          "value": "1/1",
+          "label": "Square (1:1)"
+        },
+        {
+          "value": "3/4",
+          "label": "Portrait (3:4)"
+        },
+        {
+          "value": "4/3",
+          "label": "Landscape (4:3)"
+        },
+        {
+          "value": "16/9",
+          "label": "Widescreen (16:9)"
+        }
+      ],
+      "default": "1/1"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#f3f3f3"
+    },
+    {
+      "type": "header",
+      "content": "Navigation arrows"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_arrows",
+      "label": "Show arrows",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_arrows_mobile",
+      "label": "Hide arrows on mobile",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "arrow_size",
+      "min": 20,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "label": "Arrow size",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "arrow_offset",
+      "min": 4,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Arrow offset from edge",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "arrow_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Arrow opacity",
+      "default": 80
+    },
+    {
+      "type": "color",
+      "id": "arrow_background",
+      "label": "Arrow background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "arrow_color",
+      "label": "Arrow color",
+      "default": "#3d3935"
+    },
+    {
+      "type": "header",
+      "content": "Dot indicators"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_dots",
+      "label": "Show dots",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_dots_desktop",
+      "label": "Hide dots on desktop",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "dot_size",
+      "min": 4,
+      "max": 12,
+      "step": 1,
+      "unit": "px",
+      "label": "Dot size",
+      "default": 6
+    },
+    {
+      "type": "range",
+      "id": "dot_spacing",
+      "min": 4,
+      "max": 12,
+      "step": 1,
+      "unit": "px",
+      "label": "Dot spacing",
+      "default": 6
+    },
+    {
+      "type": "range",
+      "id": "dots_padding",
+      "min": 4,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Dots padding",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "dots_bottom_offset",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Dots bottom offset",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "dot_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Dot opacity",
+      "default": 70
+    },
+    {
+      "type": "color",
+      "id": "dot_active_color",
+      "label": "Active dot color",
+      "default": "#3d3935"
+    },
+    {
+      "type": "color",
+      "id": "dot_inactive_color",
+      "label": "Inactive dot color",
+      "default": "#ffffff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product image carousel"
+    }
+  ]
+}
+{% endschema %}
