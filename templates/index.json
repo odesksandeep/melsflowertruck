@@ -291,6 +291,7 @@
       "blocks": {
         "1662336917a0307bbe-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/1d9e0b6b-5b7d-4451-8584-fb9700833f15.jpg",
             "title": "Flowers For  Delivery",
@@ -301,6 +302,7 @@
         },
         "1662336917a0307bbe-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/3C6CE4F6-31BB-4C55-80EC-98F09FBC9D5E.jpg",
             "title": "Flowers For  Your Home or Office",
@@ -311,6 +313,7 @@
         },
         "1662336917a0307bbe-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/8C32D7F9-5012-4B1F-BC4E-5E8E1985D93E.jpg",
             "title": "Flowers For  Your Event",
