@@ -271,6 +271,11 @@
         "type": "shopify://apps/seoant-ai-seo/blocks/seoant-core/8e57283b-dcb0-4f7b-a947-fb5c57a0d59d",
         "disabled": false,
         "settings": {}
+      },
+      "2858414731233960599": {
+        "type": "shopify://apps/deco-labels-badges/blocks/main/fd2caeda-48fd-4076-b5f9-8dfada7253f1",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
