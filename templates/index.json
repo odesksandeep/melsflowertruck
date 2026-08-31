@@ -830,6 +830,47 @@
         "ai_gen_block_eb5ef45_cPjNqL"
       ],
       "settings": {}
+    },
+    "17882172743292e89b": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_snippet_widget_KRADhk": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "reviews_selection": "auto",
+            "products": [
+              "mels-market-pick",
+              "prefectly-pretty",
+              "suble-soft-blooms",
+              "market-special-melsflowertruck"
+            ],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "min_star_rating": "inherit",
+            "show_review_media": true,
+            "max_reviews": 22,
+            "review_length": "large",
+            "text_size": "medium",
+            "max_width": 860,
+            "max_image_size": "small",
+            "arrows_visibility": "always_shown",
+            "transition_speed": 5,
+            "corner_styling": "inherit",
+            "text_color": "",
+            "card_color": "",
+            "stars_color": "",
+            "arrows_color": "",
+            "arrows_background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_snippet_widget_KRADhk"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -855,6 +896,7 @@
     "16623471501f512517",
     "1662336598d0d109ce",
     "multicolumn_ckLzhW",
-    "178641536017f12ed9"
+    "178641536017f12ed9",
+    "17882172743292e89b"
   ]
 }
