@@ -150,6 +150,47 @@
         "padding_bottom": 0
       }
     },
+    "1788217296ed6ea6b6": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_snippet_widget_cjKgAF": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "reviews_selection": "auto",
+            "products": [
+              "mels-market-pick",
+              "prefectly-pretty",
+              "luscious-and-light",
+              "suble-soft-blooms"
+            ],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "min_star_rating": "inherit",
+            "show_review_media": true,
+            "max_reviews": 14,
+            "review_length": "medium",
+            "text_size": "small",
+            "max_width": 1100,
+            "max_image_size": "small",
+            "arrows_visibility": "always_shown",
+            "transition_speed": 5,
+            "corner_styling": "inherit",
+            "text_color": "",
+            "card_color": "",
+            "stars_color": "",
+            "arrows_color": "",
+            "arrows_background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_snippet_widget_cjKgAF"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -833,41 +874,6 @@
     },
     "17882172743292e89b": {
       "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_snippet_widget_KRADhk": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "reviews_selection": "all",
-            "products": [
-              "mels-market-pick",
-              "prefectly-pretty",
-              "suble-soft-blooms",
-              "market-special-melsflowertruck"
-            ],
-            "filter_pinned": false,
-            "filter_featured": false,
-            "filter_custom_tags": "",
-            "min_star_rating": "inherit",
-            "show_review_media": true,
-            "max_reviews": 22,
-            "review_length": "large",
-            "text_size": "medium",
-            "max_width": 860,
-            "max_image_size": "small",
-            "arrows_visibility": "always_shown",
-            "transition_speed": 5,
-            "corner_styling": "inherit",
-            "text_color": "",
-            "card_color": "",
-            "stars_color": "",
-            "arrows_color": "",
-            "arrows_background_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_snippet_widget_KRADhk"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -880,6 +886,7 @@
     "custom_liquid_rpBJHj",
     "custom_liquid_q7qxJE",
     "rich_text",
+    "1788217296ed6ea6b6",
     "featured_collection",
     "rich_text_YxchLY",
     "2e58f238-6c94-4b65-a718-4bef1ad52876",
