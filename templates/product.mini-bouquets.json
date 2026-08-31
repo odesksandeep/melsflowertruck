@@ -49,6 +49,7 @@
         },
         "collapsible_tab_gB3tPm": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Bouquet Size Guide",
             "icon": "ruler",
