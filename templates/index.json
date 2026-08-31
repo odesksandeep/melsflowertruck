@@ -177,7 +177,7 @@
             "transition_speed": 5,
             "corner_styling": "inherit",
             "text_color": "",
-            "card_color": "",
+            "card_color": "#DBC2B1",
             "stars_color": "",
             "arrows_color": "",
             "arrows_background_color": ""
