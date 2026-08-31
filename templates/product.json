@@ -104,6 +104,31 @@
             "content": "<p>To help your flowers last as long as possible, follow these simple care tips:</p><ul><li>Trim the stems on an angle when you first receive your bouquet.</li><li>Use a clean vase filled with fresh, cool water.</li><li>Keep your flowers away from direct sunlight, heat, and drafts.</li><li>Change the water every 2–3 days and re-trim the stems.</li><li>Remove any wilted blooms to keep the rest fresher for longer.</li><li>If your bouquet includes lilies, remove the pollen to avoid staining.</li></ul>",
             "page": ""
           }
+        },
+        "judge_me_reviews_review_snippet_widget_TWmnta": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "reviews_selection": "auto",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "min_star_rating": "inherit",
+            "show_review_media": true,
+            "max_reviews": 5,
+            "review_length": "medium",
+            "text_size": "medium",
+            "max_width": 1100,
+            "max_image_size": "small",
+            "arrows_visibility": "always_shown",
+            "transition_speed": 5,
+            "corner_styling": "inherit",
+            "text_color": "",
+            "card_color": "",
+            "stars_color": "",
+            "arrows_color": "",
+            "arrows_background_color": ""
+          }
         }
       },
       "block_order": [
@@ -121,7 +146,8 @@
         "custom_liquid_PW9B6X",
         "collapsible-row-1",
         "collapsible_tab_tRTmW9",
-        "collapsible_tab_RmFeBW"
+        "collapsible_tab_RmFeBW",
+        "judge_me_reviews_review_snippet_widget_TWmnta"
       ],
       "settings": {
         "enable_sticky_info": true,
