@@ -178,7 +178,7 @@
             "corner_styling": "inherit",
             "text_color": "",
             "card_color": "",
-            "stars_color": "rgba(0,0,0,0)",
+            "stars_color": "#321010",
             "arrows_color": "",
             "arrows_background_color": ""
           }
