@@ -97,6 +97,19 @@
             "arrows_background_color": ""
           }
         },
+        "text_CmefX7": {
+          "type": "text",
+          "settings": {
+            "text": "Beautiful, Fresh flowers. Chosen and arranged by Mel - You won't be disappointed.",
+            "text_style": "body"
+          }
+        },
+        "custom_liquid_jLyqqA": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "Same Day Auckland Wide Delivery\n\nFresh Flowers Guaranteed\n\nDelivery from $10 - $18"
+          }
+        },
         "custom_liquid_PW9B6X": {
           "type": "custom_liquid",
           "settings": {
@@ -144,6 +157,8 @@
         "quantity_selector",
         "buy_buttons",
         "judge_me_reviews_review_snippet_widget_TWmnta",
+        "text_CmefX7",
+        "custom_liquid_jLyqqA",
         "custom_liquid_PW9B6X",
         "collapsible-row-1",
         "collapsible_tab_tRTmW9",
