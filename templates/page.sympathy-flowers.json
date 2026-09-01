@@ -17,74 +17,26 @@
         "padding_bottom": 28
       }
     },
-    "c9ee904b-6192-4ba3-a44b-ffd105d23d02": {
-      "type": "image-banner",
-      "blocks": {
-        "template--15859280478387__c9ee904b-6192-4ba3-a44b-ffd105d23d02-1668912068af3088a4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Mel’s Flower Truck",
-            "heading_size": "h0"
-          }
-        },
-        "template--15859280478387__c9ee904b-6192-4ba3-a44b-ffd105d23d02-1668912068af3088a4-1": {
-          "type": "text",
-          "settings": {
-            "text": "Buy Flowers In St John’s Or Online.                                                           Delivery Auckland-Wide",
-            "text_style": "body"
-          }
-        },
-        "template--15859280478387__c9ee904b-6192-4ba3-a44b-ffd105d23d02-1668912068af3088a4-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15859280478387__c9ee904b-6192-4ba3-a44b-ffd105d23d02-1668912068af3088a4-0",
-        "template--15859280478387__c9ee904b-6192-4ba3-a44b-ffd105d23d02-1668912068af3088a4-1",
-        "template--15859280478387__c9ee904b-6192-4ba3-a44b-ffd105d23d02-1668912068af3088a4-2"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/mels-flower-truck-home.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "top-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "912a4554-b521-442c-a251-58ff7a8a79c7": {
       "type": "rich-text",
       "blocks": {
         "template--15859280478387__912a4554-b521-442c-a251-58ff7a8a79c7-16689122917122b8e5-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Flowers Bring The Joy To Your Day</p>",
+            "heading": "<p>Sympathy Flowers Auckland Wide</p>",
             "heading_size": "h1"
           }
         },
         "template--15859280478387__912a4554-b521-442c-a251-58ff7a8a79c7-16689122917122b8e5-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Everyone deserves to enjoy flowers.        </p><p>                                                                                 Flowers captivate all our senses. </p><p>They look wonderful and smell amazing, and we can’t help but reach out                                       and feel the delicate blooms. </p><p>Giving, receiving and being around flowers lift our spirits and make us feel special. </p>"
+            "text": "<p>Thoughtful flowers for a difficult time</p>"
           }
         },
         "2c15e8d8-a5a1-4023-b620-45f1a9d489f8": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>When words are hard to find, flowers can we a simple way to reach out and let them know you are thinking of them.</p><p>At Mel's Flower Truck, I can custom make a beautiful, fresh seasonal bouquet - perfect for sending love sympathy and support to friends or family.</p><p>If you're not sure what flowers to choose, don't worry. You can let me choose.</p>"
           }
         },
         "1c523efc-c8e8-4d52-a87c-4b81d40899c7": {
@@ -374,7 +326,6 @@
     },
     "6d38f711-a81f-46ec-8606-c93081113b76": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--15859280478387__6d38f711-a81f-46ec-8606-c93081113b76-16689125564a2ef853-0": {
           "type": "column",
@@ -412,6 +363,7 @@
         "template--15859280478387__6d38f711-a81f-46ec-8606-c93081113b76-16689125564a2ef853-1",
         "template--15859280478387__6d38f711-a81f-46ec-8606-c93081113b76-16689125564a2ef853-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "Stunning, Lasting, Market-Fresh Flowers",
         "heading_size": "h1",
@@ -439,7 +391,6 @@
     },
     "8f7f6e84-f3a9-4345-bf14-f28d1339257f": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15859280478387__8f7f6e84-f3a9-4345-bf14-f28d1339257f-1675197756d10d388b-0": {
           "type": "heading",
@@ -459,6 +410,7 @@
         "template--15859280478387__8f7f6e84-f3a9-4345-bf14-f28d1339257f-1675197756d10d388b-0",
         "template--15859280478387__8f7f6e84-f3a9-4345-bf14-f28d1339257f-1675197756d10d388b-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -471,7 +423,6 @@
   },
   "order": [
     "main",
-    "c9ee904b-6192-4ba3-a44b-ffd105d23d02",
     "912a4554-b521-442c-a251-58ff7a8a79c7",
     "3749ef09-8d72-4248-89ad-730dbf87777f",
     "caae1821-be14-42f5-bb46-4c48de80e0a3",
