@@ -107,7 +107,7 @@
         "custom_liquid_jLyqqA": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "🚚 Same Day Auckland Wide Delivery\n\n🌸 Fresh Flowers Guaranteed\n\n💰Delivery from $10 - $18"
+            "custom_liquid": "<p>🚚 Same Day Auckland Wide Delivery</p><p>🌸 Fresh Flowers Guaranteed</p><p>💰 Delivery from $10 - $18</p>"
           }
         },
         "collapsible-row-1": {
