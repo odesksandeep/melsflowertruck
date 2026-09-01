@@ -62,197 +62,6 @@
         "padding_bottom": 52
       }
     },
-    "3749ef09-8d72-4248-89ad-730dbf87777f": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15859280478387__3749ef09-8d72-4248-89ad-730dbf87777f-1668911698b49c5cb3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "template--15859280478387__3749ef09-8d72-4248-89ad-730dbf87777f-1668911698b49c5cb3-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>I noticed that people were avoiding buying flowers because they didn’t see the value in buying an arrangement that faded and dropped after a couple of days. </p><p>So I use my years of knowledge in the flower industry to select blooms in combinations that last. </p><p>And put them together in beautiful arrangements that give the wow factor to your gift, home, office or event. </p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--15859280478387__3749ef09-8d72-4248-89ad-730dbf87777f-1668911698b49c5cb3-0",
-        "template--15859280478387__3749ef09-8d72-4248-89ad-730dbf87777f-1668911698b49c5cb3-1"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/d3563cbf-2a5a-4b2d-b61e-bce56b2e78e3.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "caae1821-be14-42f5-bb46-4c48de80e0a3": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15859280478387__caae1821-be14-42f5-bb46-4c48de80e0a3-166891237475173de6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Beautiful, Easy To Order Flowers</p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--15859280478387__caae1821-be14-42f5-bb46-4c48de80e0a3-166891237475173de6-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>- Market-Fresh.</strong> All our flowers are bought fresh every 2-3 days, so you get the longest-lasting, stunning flowers</p><p><strong>- 19+ years of flower-buying experience. </strong>Arranging flowers is one skill, but knowing how to buy the right blooms takes different knowledge. With over 19 years of experience, I know which flowers to buy to get the best value and the biggest wow factor for your arrangement. </p><p><strong>- Local to Auckland Eastern Bays. </strong>Being local means you can come and find me from Monday to Friday at 69A Merton Road, St John’s. And I can deliver easily around Remuera, Stonefields, Meadowbank and Ellerslie. </p><p><strong>- Totally obsessed with flowers. </strong>If you can’t decide or need advice on your flower choices, let’s talk. Come down to Mel’s Flower Truck, or email me with your questions. I can help you get the perfect flowers for any occasion.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15859280478387__caae1821-be14-42f5-bb46-4c48de80e0a3-166891237475173de6-0",
-        "template--15859280478387__caae1821-be14-42f5-bb46-4c48de80e0a3-166891237475173de6-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "3d2b83f0-b6d9-449f-ad4c-369961c573c6": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--15859280478387__3d2b83f0-b6d9-449f-ad4c-369961c573c6-16689125564a2ef853-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/logo.png",
-            "title": "Auckland Netball",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--15859280478387__3d2b83f0-b6d9-449f-ad4c-369961c573c6-16689125564a2ef853-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/download.jpg",
-            "title": "Axis sports medicine",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--15859280478387__3d2b83f0-b6d9-449f-ad4c-369961c573c6-16689125564a2ef853-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Logo_on_BG_texture.jpg",
-            "title": "Barfoot & Thompson",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "2f40dfaf-4682-46fb-999c-67c947f67424": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/download.png",
-            "title": "Meadowbank Oceania Health care",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15859280478387__3d2b83f0-b6d9-449f-ad4c-369961c573c6-16689125564a2ef853-0",
-        "template--15859280478387__3d2b83f0-b6d9-449f-ad4c-369961c573c6-16689125564a2ef853-1",
-        "template--15859280478387__3d2b83f0-b6d9-449f-ad4c-369961c573c6-16689125564a2ef853-2",
-        "2f40dfaf-4682-46fb-999c-67c947f67424"
-      ],
-      "settings": {
-        "title": " Bringing The Floral Wow Factor To Auckland",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "074fb401-30d6-4c69-84b9-3d08885dabd1": {
-      "type": "image-banner",
-      "blocks": {
-        "template--15859280478387__074fb401-30d6-4c69-84b9-3d08885dabd1-1668964240d6b9e529-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "I Believe The Best Flowers In Auckland Should Be",
-            "heading_size": "h1"
-          }
-        },
-        "template--15859280478387__074fb401-30d6-4c69-84b9-3d08885dabd1-1668964240d6b9e529-1": {
-          "type": "text",
-          "settings": {
-            "text": "Stunning Seasonal Sustainable",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--15859280478387__074fb401-30d6-4c69-84b9-3d08885dabd1-1668964240d6b9e529-0",
-        "template--15859280478387__074fb401-30d6-4c69-84b9-3d08885dabd1-1668964240d6b9e529-1"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Untitled_design_1.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "b404626b-4b3e-48e9-b52b-067e7e7fa468": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15859280478387__b404626b-4b3e-48e9-b52b-067e7e7fa468-166896435187fc4bb7-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Such a fantastic option! Gorgeous bouquet with tailor-made details, easy pickup around the community, very competitive price, and of course, nice Mel, the owner. Be sure to come back again.</p><p>~ Dan</p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15859280478387__b404626b-4b3e-48e9-b52b-067e7e7fa468-166896435187fc4bb7-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "3afb8809-5b92-4dd1-863f-d3519f4ac0c6": {
       "type": "collapsible-content",
       "blocks": {
@@ -381,57 +190,40 @@
         "padding_bottom": 36
       }
     },
-    "e8d1bb0d-9ef9-43fb-85b6-8d6f450077ba": {
-      "type": "instafeed",
+    "featured_collection_GRcrc6": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "heading_size": 20,
-        "feed_width": 100,
-        "html_area": ""
-      }
-    },
-    "8f7f6e84-f3a9-4345-bf14-f28d1339257f": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15859280478387__8f7f6e84-f3a9-4345-bf14-f28d1339257f-1675197756d10d388b-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>The wow factor for every event</p>",
-            "heading_size": "h0"
-          }
-        },
-        "template--15859280478387__8f7f6e84-f3a9-4345-bf14-f28d1339257f-1675197756d10d388b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>An event just isn’t complete without stunning blooms that create a full-sense wow factor.</p><p>Fully tailored to your event, I can create custom installations that really make your party, event or birthday pop. </p><p><span style=\"text-decoration:underline\">Email or call me </span>to discuss your flower needs.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15859280478387__8f7f6e84-f3a9-4345-bf14-f28d1339257f-1675197756d10d388b-0",
-        "template--15859280478387__8f7f6e84-f3a9-4345-bf14-f28d1339257f-1675197756d10d388b-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
     "912a4554-b521-442c-a251-58ff7a8a79c7",
-    "3749ef09-8d72-4248-89ad-730dbf87777f",
-    "caae1821-be14-42f5-bb46-4c48de80e0a3",
-    "3d2b83f0-b6d9-449f-ad4c-369961c573c6",
-    "074fb401-30d6-4c69-84b9-3d08885dabd1",
-    "b404626b-4b3e-48e9-b52b-067e7e7fa468",
     "3afb8809-5b92-4dd1-863f-d3519f4ac0c6",
     "6d38f711-a81f-46ec-8606-c93081113b76",
-    "e8d1bb0d-9ef9-43fb-85b6-8d6f450077ba",
-    "8f7f6e84-f3a9-4345-bf14-f28d1339257f"
+    "featured_collection_GRcrc6"
   ]
 }
