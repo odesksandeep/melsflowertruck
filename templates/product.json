@@ -110,18 +110,12 @@
             "custom_liquid": "🚚 Same Day Auckland Wide Delivery\n\n🌸 Fresh Flowers Guaranteed\n\n💰Delivery from $10 - $18"
           }
         },
-        "custom_liquid_PW9B6X": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n@media screen and (max-width: 749px) {\n  #ProductInfo-template--16178007408819__main .product-form__input input[type=\"radio\"] + label {\n    min-width: 0;\n    min-height: 0;\n    padding: 0.55rem 0.8rem;\n    font-size: 0.85rem;\n    line-height: 1.2;\n  }\n}\n</style>"
-          }
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Delivery",
             "icon": "truck",
-            "content": "<p>AUCKLAND WIDE DELIVERY- Order before 12pm for same day delivery.</p><p>Mon - Friday</p><ul><li>Local Delivery Postcode 1072: $10</li><li>Local Delivery Postcode 1071: $14</li><li>Auckland Wide Delivery $18<br/></li></ul><p>Same day Auckland Wide business address's must be ordered prior to 9am</p><p><strong>PICKUP</strong></p><p><strong>From SwimTastic or my studio in St Johns</strong></p><p>Monday - Friday 9:00 - 6:00Saturday 9:00 - 12:00</p><h6></h6>",
+            "content": "<p>AUCKLAND WIDE DELIVERY</p><p>Order before 12pm for same day delivery.</p><p>Monday - Friday</p><p>Local Delivery Postcode 1072: $10</p><p>Local Delivery Postcode 1071: $14</p><p>Auckland Wide Delivery: $18</p><p>Same day Auckland Wide business addresses must be ordered prior to 9am.</p><p>PICKUP</p><p>From SwimTastic or my studio in St Johns.</p><p>Monday - Friday: 9:00 - 6:00</p><p>Saturday: 9:00 - 12:00</p>",
             "page": ""
           }
         },
@@ -159,7 +153,6 @@
         "judge_me_reviews_review_snippet_widget_TWmnta",
         "text_CmefX7",
         "custom_liquid_jLyqqA",
-        "custom_liquid_PW9B6X",
         "collapsible-row-1",
         "collapsible_tab_tRTmW9",
         "collapsible_tab_RmFeBW"
