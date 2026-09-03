@@ -17,82 +17,26 @@
         "padding_bottom": 28
       }
     },
-    "c9ee904b-6192-4ba3-a44b-ffd105d23d02": {
-      "type": "image-banner",
-      "blocks": {
-        "template--15859280478387__c9ee904b-6192-4ba3-a44b-ffd105d23d02-1668912068af3088a4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Mel’s Flower Truck",
-            "heading_size": "h0"
-          }
-        },
-        "template--15859280478387__c9ee904b-6192-4ba3-a44b-ffd105d23d02-1668912068af3088a4-1": {
-          "type": "text",
-          "settings": {
-            "text": "Buy Flowers In St John’s Or Online.                                                           Delivery Auckland-Wide",
-            "text_style": "body"
-          }
-        },
-        "template--15859280478387__c9ee904b-6192-4ba3-a44b-ffd105d23d02-1668912068af3088a4-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15859280478387__c9ee904b-6192-4ba3-a44b-ffd105d23d02-1668912068af3088a4-0",
-        "template--15859280478387__c9ee904b-6192-4ba3-a44b-ffd105d23d02-1668912068af3088a4-1",
-        "template--15859280478387__c9ee904b-6192-4ba3-a44b-ffd105d23d02-1668912068af3088a4-2"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/mels-flower-truck-home.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "top-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "accent-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "912a4554-b521-442c-a251-58ff7a8a79c7": {
       "type": "rich-text",
       "blocks": {
-        "template--15859280478387__912a4554-b521-442c-a251-58ff7a8a79c7-16689122917122b8e5-0": {
+        "heading_HwehQw": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Flowers Bring The Joy To Your Day</p>",
-            "heading_size": "h1"
+            "heading": "<h1>Refunds & Returns Policy<br/><br/></h1>",
+            "heading_size": "h0"
           }
         },
-        "template--15859280478387__912a4554-b521-442c-a251-58ff7a8a79c7-16689122917122b8e5-1": {
+        "text_tYHxNf": {
           "type": "text",
           "settings": {
-            "text": "<p>Everyone deserves to enjoy flowers.        </p><p>                                                                                 Flowers captivate all our senses. </p><p>They look wonderful and smell amazing, and we can’t help but reach out                                       and feel the delicate blooms. </p><p>Giving, receiving and being around flowers lift our spirits and make us feel special. </p>"
-          }
-        },
-        "1c523efc-c8e8-4d52-a87c-4b81d40899c7": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>At Mel’s Flower Truck, our focus is delivering fresh, beautiful flowers to you and your recipients.</p><p>If for any reason your flowers arrive in an unsatisfactory condition, or they are not received, please get in touch within <strong>24 hours</strong> so we can investigate and put things right.</p><h2><strong>Flowers Received in Unsatisfactory Condition</strong></h2><p>If your flowers arrive in a condition you’re unhappy with, we’ll need:</p><ul><li>Photos of what you or the recipient received</li><li>Proof of purchase</li></ul><p>You do <strong>not</strong> need to bring the flowers back to us.<br/>Once we’ve confirmed the issue relates to <strong>quality or freshness</strong>, we’ll send a <strong>complimentary replacement bouquet</strong> with <strong>no courier fees</strong>.</p><p>Please note:<br/>Unsatisfactory condition relates only to <strong>quality and freshness</strong>.<br/>Disliking the colours or flower varieties is <strong>not</strong> grounds for a replacement or refund.</p><h2><strong>Incorrect Delivery Address Provided by Sender</strong></h2><p>If flowers were not received because an incorrect delivery address was supplied, we cannot offer a refund or replacement.<br/>We can help redirect the flowers to the correct address if possible. Additional courier fees may apply.</p><h2><strong>Courier Delivery Errors</strong></h2><p>If your flowers left us but were delivered incorrectly by one of our couriers, we will send a <strong>fresh complimentary replacement bouquet</strong> with <strong>no additional courier fees</strong>.</p><h2><strong>Missed or Undispatched Orders</strong></h2><p>If your order was missed and we did not dispatch your flowers on the requested day, you may choose:</p><ul><li>Redelivery on another day, or</li><li>A full refund</li></ul><h2><strong>Order Cancellations</strong></h2><p>Orders can be cancelled <strong>free of charge</strong> as long as they have <strong>not yet left the truck</strong>.</p><h2><strong>Change of Mind</strong></h2><p>Due to the perishable nature of flowers, we do not offer refunds for orders that have been picked up or delivered if you have changed your mind or no longer need them.</p><h2><strong>Refund Processing</strong></h2><p>Refunds can only be made back to the <strong>original card</strong> used at checkout.<br/>Approved refunds take <strong>2–4 business days</strong> to process.</p><h2><strong>Flower Care Requirements</strong></h2><p>As flowers are perishable, recipients must ensure they are placed in water on the day they are received.<br/>Please follow the care instructions provided:</p><h3><strong>Caring for Your Flowers</strong></h3><ul><li>Unwrap your flowers</li><li>Trim stems by approx. ½ cm</li><li>Place into a vase ensuring all stems are in water</li><li>Change water & recut stems every few days</li></ul><p>We cannot offer refunds or replacements for flowers that have not been cared for or left out of water.</p><h2><strong>Time‑Specific Deliveries</strong></h2><p>If you require a time‑specific delivery, this must be confirmed with us verbally or via email.<br/>Writing this in the special instructions box does <strong>not</strong> guarantee a timed delivery.<br/>As we use third‑party couriers, we cannot provide refunds for flowers not delivered by a specific time.</p><p>If you have any questions or need support, please get in touch:<br/><strong>Phone:</strong> 021 234 7844<br/><strong>Email:</strong> melsflowertruck@gmail.com<br/></p>"
           }
         }
       },
       "block_order": [
-        "template--15859280478387__912a4554-b521-442c-a251-58ff7a8a79c7-16689122917122b8e5-0",
-        "template--15859280478387__912a4554-b521-442c-a251-58ff7a8a79c7-16689122917122b8e5-1",
-        "1c523efc-c8e8-4d52-a87c-4b81d40899c7"
+        "heading_HwehQw",
+        "text_tYHxNf"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -101,268 +45,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "3749ef09-8d72-4248-89ad-730dbf87777f": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15859280478387__3749ef09-8d72-4248-89ad-730dbf87777f-1668911698b49c5cb3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "template--15859280478387__3749ef09-8d72-4248-89ad-730dbf87777f-1668911698b49c5cb3-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>I noticed that people were avoiding buying flowers because they didn’t see the value in buying an arrangement that faded and dropped after a couple of days. </p><p>So I use my years of knowledge in the flower industry to select blooms in combinations that last. </p><p>And put them together in beautiful arrangements that give the wow factor to your gift, home, office or event. </p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--15859280478387__3749ef09-8d72-4248-89ad-730dbf87777f-1668911698b49c5cb3-0",
-        "template--15859280478387__3749ef09-8d72-4248-89ad-730dbf87777f-1668911698b49c5cb3-1"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/d3563cbf-2a5a-4b2d-b61e-bce56b2e78e3.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "caae1821-be14-42f5-bb46-4c48de80e0a3": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15859280478387__caae1821-be14-42f5-bb46-4c48de80e0a3-166891237475173de6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Beautiful, Easy To Order Flowers</p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--15859280478387__caae1821-be14-42f5-bb46-4c48de80e0a3-166891237475173de6-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>- Market-Fresh.</strong> All our flowers are bought fresh every 2-3 days, so you get the longest-lasting, stunning flowers</p><p><strong>- 19+ years of flower-buying experience. </strong>Arranging flowers is one skill, but knowing how to buy the right blooms takes different knowledge. With over 19 years of experience, I know which flowers to buy to get the best value and the biggest wow factor for your arrangement. </p><p><strong>- Local to Auckland Eastern Bays. </strong>Being local means you can come and find me from Monday to Friday at 69A Merton Road, St John’s. And I can deliver easily around Remuera, Stonefields, Meadowbank and Ellerslie. </p><p><strong>- Totally obsessed with flowers. </strong>If you can’t decide or need advice on your flower choices, let’s talk. Come down to Mel’s Flower Truck, or email me with your questions. I can help you get the perfect flowers for any occasion.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15859280478387__caae1821-be14-42f5-bb46-4c48de80e0a3-166891237475173de6-0",
-        "template--15859280478387__caae1821-be14-42f5-bb46-4c48de80e0a3-166891237475173de6-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "3d2b83f0-b6d9-449f-ad4c-369961c573c6": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--15859280478387__3d2b83f0-b6d9-449f-ad4c-369961c573c6-16689125564a2ef853-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/logo.png",
-            "title": "Auckland Netball",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--15859280478387__3d2b83f0-b6d9-449f-ad4c-369961c573c6-16689125564a2ef853-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/download.jpg",
-            "title": "Axis sports medicine",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--15859280478387__3d2b83f0-b6d9-449f-ad4c-369961c573c6-16689125564a2ef853-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Logo_on_BG_texture.jpg",
-            "title": "Barfoot & Thompson",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "2f40dfaf-4682-46fb-999c-67c947f67424": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/download.png",
-            "title": "Meadowbank Oceania Health care",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15859280478387__3d2b83f0-b6d9-449f-ad4c-369961c573c6-16689125564a2ef853-0",
-        "template--15859280478387__3d2b83f0-b6d9-449f-ad4c-369961c573c6-16689125564a2ef853-1",
-        "template--15859280478387__3d2b83f0-b6d9-449f-ad4c-369961c573c6-16689125564a2ef853-2",
-        "2f40dfaf-4682-46fb-999c-67c947f67424"
-      ],
-      "settings": {
-        "title": " Bringing The Floral Wow Factor To Auckland",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "074fb401-30d6-4c69-84b9-3d08885dabd1": {
-      "type": "image-banner",
-      "blocks": {
-        "template--15859280478387__074fb401-30d6-4c69-84b9-3d08885dabd1-1668964240d6b9e529-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "I Believe The Best Flowers In Auckland Should Be",
-            "heading_size": "h1"
-          }
-        },
-        "template--15859280478387__074fb401-30d6-4c69-84b9-3d08885dabd1-1668964240d6b9e529-1": {
-          "type": "text",
-          "settings": {
-            "text": "Stunning Seasonal Sustainable",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--15859280478387__074fb401-30d6-4c69-84b9-3d08885dabd1-1668964240d6b9e529-0",
-        "template--15859280478387__074fb401-30d6-4c69-84b9-3d08885dabd1-1668964240d6b9e529-1"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Untitled_design_1.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "accent-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "b404626b-4b3e-48e9-b52b-067e7e7fa468": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15859280478387__b404626b-4b3e-48e9-b52b-067e7e7fa468-166896435187fc4bb7-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15859280478387__b404626b-4b3e-48e9-b52b-067e7e7fa468-166896435187fc4bb7-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "3afb8809-5b92-4dd1-863f-d3519f4ac0c6": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--15859280478387__3afb8809-5b92-4dd1-863f-d3519f4ac0c6-16689643514e6d5092-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "WHAT’S SO GOOD ABOUT MARKET FRESH FLOWERS?",
-            "icon": "check_mark",
-            "row_content": "<p>Many florists or supermarkets hold onto flowers. So when you buy them, they’re already a few days old. Market-fresh flowers are the freshest and last the longest. I aim to sell all my flowers within 2 days of getting them from the market. So you can be sure your flowers last as long as possible. </p>",
-            "page": ""
-          }
-        },
-        "template--15859280478387__3afb8809-5b92-4dd1-863f-d3519f4ac0c6-16689643514e6d5092-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "HOW LONG SHOULD FLOWERS LAST?",
-            "icon": "check_mark",
-            "row_content": "<p>This can vary from variety to variety. I strive to sell Market fresh flowers, which is why I sell out - I don’t hold stock.</p><p>When putting together my bouquets I always try and include different elements that make the arrangement last. You should be able to get 7-10 days out of the lasting aspect. </p><p>If you’re unsure of what to order and how long it will last, don’t hesitate to ask,</p><p>and I can talk you through the options</p>",
-            "page": ""
-          }
-        },
-        "template--15859280478387__3afb8809-5b92-4dd1-863f-d3519f4ac0c6-16689643514e6d5092-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "HOW CAN I HELP MY FLOWERS LAST LONGER?",
-            "icon": "check_mark",
-            "row_content": "<p>Not all flowers will last the same amount of time, so it’s crucial that you change the water and remove any flowers that have past their best to ensure the others will last.</p>",
-            "page": ""
-          }
-        },
-        "template--15859280478387__3afb8809-5b92-4dd1-863f-d3519f4ac0c6-16689643514e6d5092-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "DO YOU DELIVER FLOWERS?",
-            "icon": "check_mark",
-            "row_content": "<p>Yes, I do flower deliveries Auckland Wide Monday – Friday and Saturday on Request. I use dedicated floral couriers that I know and trust. </p><p>When you order, please make sure you give your phone number so the delivery company can contact the recipient in case of delivery problems. </p><p>And double check the delivery details, giving information on access to the property. If we can’t access the property your flowers might not be able to be delivered and we will still charge for this. </p>",
-            "page": ""
-          }
-        },
-        "11e1cdc8-0e97-4dbf-be58-535cca6d5463": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "HOW ARE YOUR FLOWERS SO AFFORDABLE?",
-            "icon": "check_mark",
-            "row_content": "<p>At Mel’s Flower truck, I’m well-practised in buying from the flower markets, having done so for the past 17 years. What I have come to realise is that people have been led to believe that flowers are unaffordable.</p><p>Sure there are some amazing flowers that are “On Trend”, and these have the price tag to match. I often look at these flowers at the market in awe as well. They have their place for weddings and events, but (for example) I’m not going to sell a single white hydrangea for $20.00. It’s just not in my ethos.</p><p>I purchase what is in season and best value. If there’s lots of it at the truck it</p><p>means it's good value. Unless it’s the middle of winter when prices always go up purely because it's hard to grow in winter. If you take note (there’s nothing in anyone’s gardens either)</p><p>Having a mobile flower truck also allows me to keep my overheads down, and I’ll be there in all weather to keep flowers affordable for you.</p><p>I also wrap in brown paper to keep costs down; at the end of the day, it’s the</p><p>flowers that should be the focus, not the wrap, as it often goes straight in the bin. I want all people to be able to enjoy flowers and not have to spend a fortune.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15859280478387__3afb8809-5b92-4dd1-863f-d3519f4ac0c6-16689643514e6d5092-0",
-        "template--15859280478387__3afb8809-5b92-4dd1-863f-d3519f4ac0c6-16689643514e6d5092-1",
-        "template--15859280478387__3afb8809-5b92-4dd1-863f-d3519f4ac0c6-16689643514e6d5092-2",
-        "template--15859280478387__3afb8809-5b92-4dd1-863f-d3519f4ac0c6-16689643514e6d5092-3",
-        "11e1cdc8-0e97-4dbf-be58-535cca6d5463"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "What’s So Special About Market Fresh Flowers, And Other Questions You Might Have",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "6d38f711-a81f-46ec-8606-c93081113b76": {
@@ -464,14 +146,7 @@
   },
   "order": [
     "main",
-    "c9ee904b-6192-4ba3-a44b-ffd105d23d02",
     "912a4554-b521-442c-a251-58ff7a8a79c7",
-    "3749ef09-8d72-4248-89ad-730dbf87777f",
-    "caae1821-be14-42f5-bb46-4c48de80e0a3",
-    "3d2b83f0-b6d9-449f-ad4c-369961c573c6",
-    "074fb401-30d6-4c69-84b9-3d08885dabd1",
-    "b404626b-4b3e-48e9-b52b-067e7e7fa468",
-    "3afb8809-5b92-4dd1-863f-d3519f4ac0c6",
     "6d38f711-a81f-46ec-8606-c93081113b76",
     "e8d1bb0d-9ef9-43fb-85b6-8d6f450077ba",
     "8f7f6e84-f3a9-4345-bf14-f28d1339257f"
