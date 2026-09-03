@@ -35,14 +35,21 @@
         "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-0": {
           "type": "heading",
           "settings": {
-            "heading": "<h1><strong>Birthday Flowers Auckland </strong></h1><h2><strong>Make their birthday a little more beautiful</strong></h2>",
+            "heading": "<h1><strong>Anniversary & Romance Flowers Auckland</strong></h1>",
             "heading_size": "h0"
+          }
+        },
+        "heading_CgMwat": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Say I love you with beatiful flowers</p>",
+            "heading_size": "h1"
           }
         },
         "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Looking for birthday flowers in Auckland? Send them a beautiful bouquet of market fresh flowers from Mel’s Flower Truck.</p><p>Whether it’s for your mum, best friend, partner, sister, daughter — or simply someone who deserves a little spoiling — flowers are an easy way to say <strong>Happy Birthday!</strong></p><p>Our bouquets are made with fresh, seasonal flowers selected for their colour, quality and value. Every bouquet is arranged with care and delivered fresh to their door.</p>"
+            "text": "<p>Whether you're celebrating an anniversary saying I love you, marking a special milestone or simply reminding someone how much they mean to you, a beautiful bouquet will make their day.</p><p><strong>Beautiful flowers, made with love and delivered with care across Auckland </strong></p>"
           }
         },
         "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-2": {
@@ -59,6 +66,7 @@
       },
       "block_order": [
         "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-0",
+        "heading_CgMwat",
         "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-1",
         "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-2"
       ],
