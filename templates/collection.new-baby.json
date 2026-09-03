@@ -39,6 +39,13 @@
             "heading_size": "h0"
           }
         },
+        "heading_Y4RzRc": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2><strong>Celebrate their beautiful new arrival </strong></h2>",
+            "heading_size": "h1"
+          }
+        },
         "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-2": {
           "type": "button",
           "settings": {
@@ -59,6 +66,7 @@
       },
       "block_order": [
         "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-0",
+        "heading_Y4RzRc",
         "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-2",
         "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-1"
       ],
