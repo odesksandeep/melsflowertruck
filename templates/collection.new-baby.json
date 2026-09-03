@@ -39,12 +39,6 @@
             "heading_size": "h0"
           }
         },
-        "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Looking for birthday flowers in Auckland? Send them a beautiful bouquet of market fresh flowers from Mel’s Flower Truck.</p><p>Whether it’s for your mum, best friend, partner, sister, daughter — or simply someone who deserves a little spoiling — flowers are an easy way to say <strong>Happy Birthday!</strong></p><p>Our bouquets are made with fresh, seasonal flowers selected for their colour, quality and value. Every bouquet is arranged with care and delivered fresh to their door.</p>"
-          }
-        },
         "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-2": {
           "type": "button",
           "settings": {
@@ -55,12 +49,18 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcoming a new baby is such a special moment, and fresh flowers are a lovely way to celebrate. If you’re looking for <strong>new baby flowers in Auckland</strong>, Mel’s Flower Truck has beautiful, fresh bouquets perfect for new parents, growing families, and hospital deliveries.</p><p>Whether it’s for a friend, sister, workmate, or someone who’s just welcomed a little one into the world, flowers are an easy way to say <em>congratulations</em> and brighten their space.</p><p>Our bouquets are made with <strong>fresh, seasonal flowers</strong> chosen for their colour, softness and long‑lasting quality. Every bouquet is arranged with care and delivered fresh to their door — or straight to the hospital if that’s where they’re resting.</p><p>Bright, gentle, and full of warmth — the perfect way to welcome a new arrival.</p>"
+          }
         }
       },
       "block_order": [
         "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-0",
-        "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-1",
-        "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-2"
+        "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-2",
+        "template--15859280314547__e7911d12-52cc-45fe-bc45-cb3e4631b5d1-1669160025f3d9a151-1"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -92,6 +92,12 @@
     "rich_text_QjNYY7": {
       "type": "rich-text",
       "blocks": {
+        "text_PjJrac": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcoming a new baby is such a special moment, and fresh flowers are a lovely way to celebrate. If you’re looking for <strong>new baby flowers in Auckland</strong>, Mel’s Flower Truck has beautiful, fresh bouquets perfect for new parents, growing families, and hospital deliveries.</p><p>Whether it’s for a friend, sister, workmate, or someone who’s just welcomed a little one into the world, flowers are an easy way to say <em>congratulations</em> and brighten their space.</p><p>Our bouquets are made with <strong>fresh, seasonal flowers</strong> chosen for their colour, softness and long‑lasting quality. Every bouquet is arranged with care and delivered fresh to their door — or straight to the hospital if that’s where they’re resting.</p><p>Bright, gentle, and full of warmth — the perfect way to welcome a new arrival.</p>"
+          }
+        },
         "heading_Axthpm": {
           "type": "heading",
           "settings": {
@@ -107,6 +113,7 @@
         }
       },
       "block_order": [
+        "text_PjJrac",
         "heading_Axthpm",
         "text_tgiYP7"
       ],
