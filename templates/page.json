@@ -20,13 +20,6 @@
     "912a4554-b521-442c-a251-58ff7a8a79c7": {
       "type": "rich-text",
       "blocks": {
-        "heading_HwehQw": {
-          "type": "heading",
-          "settings": {
-            "heading": "<h1>Refunds & Returns Policy<br/><br/></h1>",
-            "heading_size": "h0"
-          }
-        },
         "text_tYHxNf": {
           "type": "text",
           "settings": {
@@ -35,7 +28,6 @@
         }
       },
       "block_order": [
-        "heading_HwehQw",
         "text_tYHxNf"
       ],
       "settings": {
