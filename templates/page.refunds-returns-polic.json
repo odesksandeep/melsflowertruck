@@ -19,7 +19,6 @@
     },
     "c9ee904b-6192-4ba3-a44b-ffd105d23d02": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--15859280478387__c9ee904b-6192-4ba3-a44b-ffd105d23d02-1668912068af3088a4-0": {
           "type": "heading",
@@ -52,6 +51,7 @@
         "template--15859280478387__c9ee904b-6192-4ba3-a44b-ffd105d23d02-1668912068af3088a4-1",
         "template--15859280478387__c9ee904b-6192-4ba3-a44b-ffd105d23d02-1668912068af3088a4-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/mels-flower-truck-home.jpg",
         "image_overlay_opacity": 0,
@@ -68,7 +68,6 @@
     },
     "912a4554-b521-442c-a251-58ff7a8a79c7": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15859280478387__912a4554-b521-442c-a251-58ff7a8a79c7-16689122917122b8e5-0": {
           "type": "heading",
@@ -103,6 +102,7 @@
         "2c15e8d8-a5a1-4023-b620-45f1a9d489f8",
         "1c523efc-c8e8-4d52-a87c-4b81d40899c7"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -114,7 +114,6 @@
     },
     "3749ef09-8d72-4248-89ad-730dbf87777f": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--15859280478387__3749ef09-8d72-4248-89ad-730dbf87777f-1668911698b49c5cb3-0": {
           "type": "heading",
@@ -135,6 +134,7 @@
         "template--15859280478387__3749ef09-8d72-4248-89ad-730dbf87777f-1668911698b49c5cb3-0",
         "template--15859280478387__3749ef09-8d72-4248-89ad-730dbf87777f-1668911698b49c5cb3-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/d3563cbf-2a5a-4b2d-b61e-bce56b2e78e3.jpg",
         "height": "adapt",
@@ -151,7 +151,6 @@
     },
     "caae1821-be14-42f5-bb46-4c48de80e0a3": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15859280478387__caae1821-be14-42f5-bb46-4c48de80e0a3-166891237475173de6-0": {
           "type": "heading",
@@ -171,6 +170,7 @@
         "template--15859280478387__caae1821-be14-42f5-bb46-4c48de80e0a3-166891237475173de6-0",
         "template--15859280478387__caae1821-be14-42f5-bb46-4c48de80e0a3-166891237475173de6-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "left",
@@ -182,7 +182,6 @@
     },
     "3d2b83f0-b6d9-449f-ad4c-369961c573c6": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--15859280478387__3d2b83f0-b6d9-449f-ad4c-369961c573c6-16689125564a2ef853-0": {
           "type": "column",
@@ -231,6 +230,7 @@
         "template--15859280478387__3d2b83f0-b6d9-449f-ad4c-369961c573c6-16689125564a2ef853-2",
         "2f40dfaf-4682-46fb-999c-67c947f67424"
       ],
+      "disabled": true,
       "settings": {
         "title": " Bringing The Floral Wow Factor To Auckland",
         "heading_size": "h1",
@@ -250,7 +250,6 @@
     },
     "074fb401-30d6-4c69-84b9-3d08885dabd1": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--15859280478387__074fb401-30d6-4c69-84b9-3d08885dabd1-1668964240d6b9e529-0": {
           "type": "heading",
@@ -271,6 +270,7 @@
         "template--15859280478387__074fb401-30d6-4c69-84b9-3d08885dabd1-1668964240d6b9e529-0",
         "template--15859280478387__074fb401-30d6-4c69-84b9-3d08885dabd1-1668964240d6b9e529-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Untitled_design_1.png",
         "image_overlay_opacity": 0,
@@ -287,7 +287,6 @@
     },
     "b404626b-4b3e-48e9-b52b-067e7e7fa468": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15859280478387__b404626b-4b3e-48e9-b52b-067e7e7fa468-166896435187fc4bb7-1": {
           "type": "text",
@@ -306,6 +305,7 @@
         "template--15859280478387__b404626b-4b3e-48e9-b52b-067e7e7fa468-166896435187fc4bb7-1",
         "d4b5f12c-9e8f-45ef-8593-a98773f448d2"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -317,7 +317,6 @@
     },
     "3afb8809-5b92-4dd1-863f-d3519f4ac0c6": {
       "type": "collapsible-content",
-      "disabled": true,
       "blocks": {
         "template--15859280478387__3afb8809-5b92-4dd1-863f-d3519f4ac0c6-16689643514e6d5092-0": {
           "type": "collapsible_row",
@@ -372,6 +371,7 @@
         "template--15859280478387__3afb8809-5b92-4dd1-863f-d3519f4ac0c6-16689643514e6d5092-3",
         "11e1cdc8-0e97-4dbf-be58-535cca6d5463"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "What’s So Special About Market Fresh Flowers, And Other Questions You Might Have",
@@ -389,7 +389,6 @@
     },
     "6d38f711-a81f-46ec-8606-c93081113b76": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--15859280478387__6d38f711-a81f-46ec-8606-c93081113b76-16689125564a2ef853-0": {
           "type": "column",
@@ -427,6 +426,7 @@
         "template--15859280478387__6d38f711-a81f-46ec-8606-c93081113b76-16689125564a2ef853-1",
         "template--15859280478387__6d38f711-a81f-46ec-8606-c93081113b76-16689125564a2ef853-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "Stunning, Lasting, Market-Fresh Flowers",
         "heading_size": "h1",
@@ -457,7 +457,7 @@
         "template--16147318112435__c67f7e08-2944-4d37-9976-17eca129d1f8-167865836701c775e6-1": {
           "type": "text",
           "settings": {
-            "text": "<h1>WEBSITE TERMS OF USE AND PRIVACY POLICY</h1><p>These terms set out the basis upon which you may use this website, information about the copyright in this website and our privacy policy, which describes what we do with personal information we collect from you and the ways in which we may collect the information.</p><p><strong>Access Terms</strong></p><ul><li>The purpose of this website is to provide information about Mel’s Flower Truck. </li><li>Mel’s Flower Truck is not responsible if you rely on any information you access on or through this website.  Mel’s Flower Truck is also not responsible for information provided by third parties that you may access on or through this website.</li><li>We do not warrant or represent that our website will operate in a continuous or fault-free basis, will be completely secure or private all of the time, or will be free from viruses or other harmful features.  However, we do take reasonable steps to avoid or mitigate these types of issues.</li><li>The laws of New Zealand apply to the use of this website, and you submit to the non-exclusive jurisdiction of the Courts of New Zealand.</li><li>If you continue to use our website you are deemed to have accepted these terms.</li></ul><p><strong>Copyright Statement</strong></p><ul><li>Mel’s Flower Truck either owns the copyright in or has the right to use all text and images published on this website, and its overall design.  </li><li>You may download and print out any part of this website for your own personal use.  However, you may not otherwise copy or use any information or material from this website (including for commercial purposes) without the express written permission of Mel’s Flower Truck.</li><li>We only permit electronic links to pages of this website from which these terms can be accessed.  You may not provide an electronic link to any other page of this website or to any other documents hosted on this website without our consent.  We reserve the right to request that you remove an electronic link to this website at any time and you agree to remove such a link immediately.</li><li>Where access to restricted parts of this website is subject to more specific terms, those terms apply instead.</li></ul><h2>Privacy Policy</h2><p><strong>Collection of information</strong></p><ul><li>We may collect information from you through your use of our website when you request information from us or engage our services or purchase products.</li><li>By using any of our services, including our website, and providing us with any personal information, you are consenting to the use of your personal information as set out in this policy.  Please do not send us any personal information if you do not want it to be used in this way.</li><li>A number of areas on our website invite you to provide us with personal information.  For example, your names and email address.  The purpose of the information collection is apparent at the point that you provide your personal information.</li><li>If you sign up to receive a Mel’s Flower Truck newsletter you agree to receive information relating to Mel’s Flower Truck.  You can unsubscribe from our newsletter mailing list at any time.</li><li>The Mel’s Flower Truck website uses server logs and web analytic tools (such as cookies and other tracking technologies).  Cookies are small text files that are downloaded to your device by websites you visit.  When you use this website these tools collect information such as what browser and operating system you use, the internet protocol address of the device you have used to access the website, search terms, your location and what content you view when visiting our website.  Cookies do not give us access to your computer or any information about you other than the data you choose to share with us.</li><li>You consent to and understand that your personal information may be transferred, processed and stored outside of New Zealand if our website is hosted outside New Zealand.</li><li>You can set your browser to block all cookies, including cookies associated with our website, or to indicate when a cookie is being set by us.  If you do set your browser to reject cookies you may not be able to access all the features of the website.</li></ul><p><strong>Third party providers - Analytics</strong></p><ul><li>We may use third party Service Providers to assist us to analyse how our website is used.  These Service Providers have access to your personal information only to enable them to perform these tasks on our behalf and they may not disclose it or use it for any other purpose.</li><li>Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualise and personalise the ads of its own advertising network.</li><li>You can opt-out of having made your activity on the Service available to Google Analytics by installing the Google Analytics opt-out browser add-on. The add-on prevents the Google Analytics JavaScript (ga.js, analytics.js, and dc.js) from sharing information with Google Analytics about visits activity.  See this link: <a href=\"https://tools.google.com/dlpage/gaoptout\"><span style=\"text-decoration:underline\">https://tools.google.com/dlpage/gaoptout</span></a> </li><li>For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: <a href=\"https://policies.google.com/privacy?hl=en\"><span style=\"text-decoration:underline\">https://policies.google.com/privacy?hl=en</span></a></li></ul><p><strong>Third party providers – Targeting and Remarketing</strong></p><ul><li>We may also use third party vendors for remarketing.  This allows us to advertise to you on third party websites after you leave our website.  We may do this via cookies and Facebook pixels located on our website.</li><li>Most third party vendors allow you to opt-out or amend your settings.  You can do this for Google by using the following link: <a href=\"http://www.google.com/settings/ads\"><span style=\"text-decoration:underline\">http://www.google.com/settings/ads</span></a> and for Facebook by clicking here <a href=\"https://www.facebook.com/help/568137493302217\"><span style=\"text-decoration:underline\">https://www.facebook.com/help/568137493302217</span></a> </li><li>Some third party vendors allow us to create Custom Audiences feature so that we can target advertising at you.  If you wish to opt out of this please contact us.</li></ul><p><strong>Use of information </strong></p><ul><li>We will only use personal information that you provide to us for the purposes for which you supplied it or, in exceptional situations, for other reasons permitted under the Privacy Act 2020.  </li><li>We generally do not share your personal information with others unless this is necessary for the purpose for which you gave us the information.  We may share your information with any business that supports our services or products, including any person that hosts or maintains any underlying IT system or data centre that we use to provide this website or other services or products.  </li><li>While it is unlikely, we may be required to disclose your information to comply with legal or regulatory requirements.  We will use reasonable endeavours to notify you before we do this unless we are legally restricted from doing so.</li><li>We will take reasonable steps to ensure that the personal information about you we collect, use or disclose is accurate, complete, up to date and stored in a secure environment protected from unauthorised access, use, modification or disclosure.</li></ul><p><strong>Access to and correction of information </strong></p><ul><li>We will provide you with access to any personal information we hold about you.  If it is wrong please ask us to correct it.  To ask for access and correction, see our contact details.</li></ul><p><strong>Changes to our privacy policy</strong></p><ul><li>Mel’s Flower Truck may change this privacy policy from time to time in response to changes to technology, our data collection practices or the law.  All changes will be posted to this website and may apply to previously collected information.  Nothing in this policy prevents Mel’s Flower Truck from passing on information gathered on this site to any successor organisations.</li></ul>"
+            "text": "<h1><strong>Refunds & Returns Policy</strong></h1><p>At Mel’s Flower Truck, our focus is delivering fresh, beautiful flowers to you and your recipients.</p><p>If for any reason your flowers arrive in an unsatisfactory condition, or they are not received, please get in touch within <strong>24 hours</strong> so we can investigate and put things right.</p><h2><strong>Flowers Received in Unsatisfactory Condition</strong></h2><p>If your flowers arrive in a condition you’re unhappy with, we’ll need:</p><ul><li>Photos of what you or the recipient received</li><li>Proof of purchase</li></ul><p>You do <strong>not</strong> need to bring the flowers back to us.<br/>Once we’ve confirmed the issue relates to <strong>quality or freshness</strong>, we’ll send a <strong>complimentary replacement bouquet</strong> with <strong>no courier fees</strong>.</p><p>Please note:<br/>Unsatisfactory condition relates only to <strong>quality and freshness</strong>.<br/>Disliking the colours or flower varieties is <strong>not</strong> grounds for a replacement or refund.</p><h2><strong>Incorrect Delivery Address Provided by Sender</strong></h2><p>If flowers were not received because an incorrect delivery address was supplied, we cannot offer a refund or replacement.<br/>We can help redirect the flowers to the correct address if possible. Additional courier fees may apply.</p><h2><strong>Courier Delivery Errors</strong></h2><p>If your flowers left us but were delivered incorrectly by one of our couriers, we will send a <strong>fresh complimentary replacement bouquet</strong> with <strong>no additional courier fees</strong>.</p><h2><strong>Missed or Undispatched Orders</strong></h2><p>If your order was missed and we did not dispatch your flowers on the requested day, you may choose:</p><ul><li>Redelivery on another day, or</li><li>A full refund</li></ul><h2><strong>Order Cancellations</strong></h2><p>Orders can be cancelled <strong>free of charge</strong> as long as they have <strong>not yet left the truck</strong>.</p><h2><strong>Change of Mind</strong></h2><p>Due to the perishable nature of flowers, we do not offer refunds for orders that have been picked up or delivered if you have changed your mind or no longer need them.</p><h2><strong>Refund Processing</strong></h2><p>Refunds can only be made back to the <strong>original card</strong> used at checkout.<br/>Approved refunds take <strong>2–4 business days</strong> to process.</p><h2><strong>Flower Care Requirements</strong></h2><p>As flowers are perishable, recipients must ensure they are placed in water on the day they are received.<br/>Please follow the care instructions provided:</p><h3><strong>Caring for Your Flowers</strong></h3><ul><li>Unwrap your flowers</li><li>Trim stems by approx. ½ cm</li><li>Place into a vase ensuring all stems are in water</li><li>Change water & recut stems every few days</li></ul><p>We cannot offer refunds or replacements for flowers that have not been cared for or left out of water.</p><h2><strong>Time‑Specific Deliveries</strong></h2><p>If you require a time‑specific delivery, this must be confirmed with us verbally or via email.<br/>Writing this in the special instructions box does <strong>not</strong> guarantee a timed delivery.<br/>As we use third‑party couriers, we cannot provide refunds for flowers not delivered by a specific time.</p><p>If you have any questions or need support, please get in touch:<br/><strong>Phone:</strong> 021 234 7844<br/><strong>Email:</strong> melsflowertruck@gmail.com<br/><br/></p>"
           }
         }
       },
@@ -484,7 +484,6 @@
     },
     "8f7f6e84-f3a9-4345-bf14-f28d1339257f": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15859280478387__8f7f6e84-f3a9-4345-bf14-f28d1339257f-1675197756d10d388b-0": {
           "type": "heading",
@@ -504,6 +503,7 @@
         "template--15859280478387__8f7f6e84-f3a9-4345-bf14-f28d1339257f-1675197756d10d388b-0",
         "template--15859280478387__8f7f6e84-f3a9-4345-bf14-f28d1339257f-1675197756d10d388b-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
