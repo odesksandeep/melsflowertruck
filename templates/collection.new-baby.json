@@ -108,6 +108,7 @@
         },
         "heading_Axthpm": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<p>You don’t need to feel rushed searching for the perfect gift</p>",
             "heading_size": "h1"
@@ -115,6 +116,7 @@
         },
         "text_tgiYP7": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>I’ll help you choose the most wonderful flowers. So, all you have to do is get the thanks!</p><p>Can’t decide? <a href=\"/pages/contact-us\" title=\"CONTACT\"><span style=\"text-decoration:underline\">Email or call me</span></a> to discuss your flower needs.</p>"
           }
