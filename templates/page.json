@@ -141,6 +141,49 @@
         "html_area": ""
       }
     },
+    "rich_text_dzQzWT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xKCfd9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Delivering Flowers Locally to St Johns, Meadowbank, Stonefields, Kohi and Auckland Wide </p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_MFtHmD": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Flowers Bring The Joy To Your Day</h2><p>Everyone deserves to enjoy flowers. </p><p>Flowers captivate all our senses. </p><p>They look wonderful and smell amazing, and we can’t help but reach out and feel the delicate blooms. </p><p>Giving, receiving and being around flowers lift our spirits and make us feel special.</p>"
+          }
+        },
+        "button_mJGqAf": {
+          "type": "button",
+          "settings": {
+            "button_label": "SEND FLOWERS",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xKCfd9",
+        "text_MFtHmD",
+        "button_mJGqAf"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "8f7f6e84-f3a9-4345-bf14-f28d1339257f": {
       "type": "rich-text",
       "blocks": {
@@ -251,6 +294,7 @@
     "912a4554-b521-442c-a251-58ff7a8a79c7",
     "6d38f711-a81f-46ec-8606-c93081113b76",
     "e8d1bb0d-9ef9-43fb-85b6-8d6f450077ba",
+    "rich_text_dzQzWT",
     "8f7f6e84-f3a9-4345-bf14-f28d1339257f",
     "collapsible_content_AktDfT"
   ]
