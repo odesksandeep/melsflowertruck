@@ -447,6 +447,13 @@
     "c67f7e08-2944-4d37-9976-17eca129d1f8": {
       "type": "rich-text",
       "blocks": {
+        "heading_7BdQw9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>SHIPPING AND DELIVERY POLICY </h1>",
+            "heading_size": "h0"
+          }
+        },
         "template--16147318112435__c67f7e08-2944-4d37-9976-17eca129d1f8-167865836701c775e6-0": {
           "type": "heading",
           "settings": {
@@ -462,6 +469,7 @@
         }
       },
       "block_order": [
+        "heading_7BdQw9",
         "template--16147318112435__c67f7e08-2944-4d37-9976-17eca129d1f8-167865836701c775e6-0",
         "template--16147318112435__c67f7e08-2944-4d37-9976-17eca129d1f8-167865836701c775e6-1"
       ],
