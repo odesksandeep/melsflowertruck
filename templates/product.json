@@ -128,15 +128,6 @@
             "page": ""
           }
         },
-        "collapsible_tab_RmFeBW": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Flower Care Instructions",
-            "icon": "heart",
-            "content": "<p>To help your flowers last as long as possible, follow these simple care tips:</p><ul><li>Trim the stems on an angle when you first receive your bouquet.</li><li>Use a clean vase filled with fresh, cool water.</li><li>Keep your flowers away from direct sunlight, heat, and drafts.</li><li>Change the water every 2–3 days and re-trim the stems.</li><li>Remove any wilted blooms to keep the rest fresher for longer.</li><li>If your bouquet includes lilies, remove the pollen to avoid staining.</li></ul>",
-            "page": ""
-          }
-        },
         "text_xiGRzq": {
           "type": "text",
           "settings": {
@@ -147,9 +138,18 @@
         "collapsible_tab_Pcggfz": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What’s so good about market‑fresh flowers?",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p><br/>Market‑fresh flowers last longer because they’re sold at their freshest. Many florists and supermarkets hold onto flowers for several days before selling them, which means they’re already ageing when you buy them. I aim to sell all my flowers within two days of getting them from the market, so you get the longest vase life possible.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_RmFeBW": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Flower Care Instructions",
+            "icon": "heart",
+            "content": "<p>To help your flowers last as long as possible, follow these simple care tips:</p><ul><li>Trim the stems on an angle when you first receive your bouquet.</li><li>Use a clean vase filled with fresh, cool water.</li><li>Keep your flowers away from direct sunlight, heat, and drafts.</li><li>Change the water every 2–3 days and re-trim the stems.</li><li>Remove any wilted blooms to keep the rest fresher for longer.</li><li>If your bouquet includes lilies, remove the pollen to avoid staining.</li></ul>",
             "page": ""
           }
         }
@@ -171,9 +171,9 @@
         "custom_liquid_jLyqqA",
         "collapsible-row-1",
         "collapsible_tab_tRTmW9",
-        "collapsible_tab_RmFeBW",
         "text_xiGRzq",
-        "collapsible_tab_Pcggfz"
+        "collapsible_tab_Pcggfz",
+        "collapsible_tab_RmFeBW"
       ],
       "settings": {
         "enable_sticky_info": true,
