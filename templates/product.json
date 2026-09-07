@@ -136,6 +136,22 @@
             "content": "<p>To help your flowers last as long as possible, follow these simple care tips:</p><ul><li>Trim the stems on an angle when you first receive your bouquet.</li><li>Use a clean vase filled with fresh, cool water.</li><li>Keep your flowers away from direct sunlight, heat, and drafts.</li><li>Change the water every 2–3 days and re-trim the stems.</li><li>Remove any wilted blooms to keep the rest fresher for longer.</li><li>If your bouquet includes lilies, remove the pollen to avoid staining.</li></ul>",
             "page": ""
           }
+        },
+        "text_xiGRzq": {
+          "type": "text",
+          "settings": {
+            "text": "Flower Care & Quality FAQs",
+            "text_style": "subtitle"
+          }
+        },
+        "collapsible_tab_Pcggfz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -155,7 +171,9 @@
         "custom_liquid_jLyqqA",
         "collapsible-row-1",
         "collapsible_tab_tRTmW9",
-        "collapsible_tab_RmFeBW"
+        "collapsible_tab_RmFeBW",
+        "text_xiGRzq",
+        "collapsible_tab_Pcggfz"
       ],
       "settings": {
         "enable_sticky_info": true,
