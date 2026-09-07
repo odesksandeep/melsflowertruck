@@ -144,6 +144,15 @@
             "page": ""
           }
         },
+        "collapsible_tab_XbUDap": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long should flowers last?",
+            "icon": "question_mark",
+            "content": "<p><br/>Most flowers last 7–10 days, depending on the variety. I don’t hold stock — I sell market‑fresh flowers, which is why I often sell out. When I make bouquets, I include long‑lasting elements to help you get the best life out of your arrangement. If you’re unsure what to order, I’m always happy to talk you through the options.<br/><br/></p>",
+            "page": ""
+          }
+        },
         "collapsible_tab_RmFeBW": {
           "type": "collapsible_tab",
           "settings": {
@@ -173,6 +182,7 @@
         "collapsible_tab_tRTmW9",
         "text_xiGRzq",
         "collapsible_tab_Pcggfz",
+        "collapsible_tab_XbUDap",
         "collapsible_tab_RmFeBW"
       ],
       "settings": {
