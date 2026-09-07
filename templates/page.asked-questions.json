@@ -454,6 +454,12 @@
             "heading_size": "hxl"
           }
         },
+        "text_tVrRhy": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>What’s so good about market‑fresh flowers?</strong></h2><p>Market‑fresh flowers last longer because they’re sold at their freshest. Many florists and supermarkets hold onto flowers for several days before selling them, which means they’re already ageing when you buy them. I aim to sell all my flowers within <strong>two days</strong> of getting them from the market, so you can enjoy the longest vase life possible.</p><h2><strong>How long should flowers last?</strong></h2><p>Most flowers last <strong>7–10 days</strong>, depending on the variety. I don’t hold stock — I sell market‑fresh flowers, which is why I often sell out. When I make bouquets, I include long‑lasting elements to help you get the best life out of your arrangement. If you’re unsure what to order, I’m always happy to talk you through the options.</p><h2><strong>How can I help my flowers last longer?</strong></h2><p>To help your flowers last longer, change the water regularly and remove any stems that have passed their best. Not all flowers last the same amount of time, so keeping the water fresh and removing older stems helps the rest of the bouquet stay beautiful for longer.</p><h2><strong>Do you deliver flowers Auckland‑wide?</strong></h2><p>Yes, I deliver Auckland‑wide <strong>Monday to Friday</strong>, and <strong>Saturday on request</strong>. I use dedicated floral couriers I know and trust to ensure your flowers arrive safely and in perfect condition.</p><h2><strong>What information do I need to provide for delivery?</strong></h2><p>Please include a <strong>contact phone number</strong> for the recipient so couriers can reach them if there are access issues. Also double‑check the delivery address and include any gate codes or access instructions. If couriers can’t access the property, the flowers may not be able to be delivered, and delivery fees will still apply.</p><h2><strong>How are your flowers so affordable?</strong></h2><p>I buy directly from the flower markets and choose what’s <strong>in season and best value</strong>, which keeps prices fair. Some trendy flowers have high price tags, but I focus on beautiful, lasting flowers that don’t cost a fortune. Running a mobile flower truck keeps my overheads low, and I wrap in simple brown paper to keep costs down — the focus should always be on the flowers, not the packaging.</p>"
+          }
+        },
         "template--16147318112435__c67f7e08-2944-4d37-9976-17eca129d1f8-167865836701c775e6-0": {
           "type": "heading",
           "settings": {
@@ -464,6 +470,7 @@
       },
       "block_order": [
         "heading_7BdQw9",
+        "text_tVrRhy",
         "template--16147318112435__c67f7e08-2944-4d37-9976-17eca129d1f8-167865836701c775e6-0"
       ],
       "settings": {
