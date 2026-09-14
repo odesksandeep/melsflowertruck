@@ -231,7 +231,7 @@
         "text_RzVXgj": {
           "type": "text",
           "settings": {
-            "text": "<h2>✔ <strong>20 years floristry experience</strong>  <br/>✔ <strong>Quality, market‑fresh blooms</strong>  <br/>✔ <strong>Fresh flowers guaranteed</strong>  <br/>✔ <strong>Luxury blooms at affordable prices</strong>  <br/>✔ <strong>Local Auckland business you can trust</strong>  <br/>✔ <strong>Over 100 five‑star Google reviews</strong></h2>"
+            "text": "<ul><li><h2>20 years floristry experience  <br/></h2></li><li><h2>Quality, market‑fresh blooms  <br/></h2></li><li><h2>Fresh flowers guaranteed  <br/></h2></li><li><h2>Luxury blooms at affordable prices  </h2></li><li><h2>Local Auckland business you can trust  <br/></h2></li><li><h2>Over 100 five‑star Google reviews</h2></li></ul>"
           }
         }
       },
@@ -242,7 +242,7 @@
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
