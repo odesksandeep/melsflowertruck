@@ -209,7 +209,7 @@
           }
         },
         "google_reviews_repocean_repocean_reviews_carousel_8i6nHn": {
-          "type": "shopify://apps/google-reviews-repocean/blocks/repocean-reviews-carousel/019aa132-98b1-7055-b64e-581f915ade43",
+          "type": "shopify://apps/repocean-google-reviews/blocks/repocean-reviews-carousel/019aa132-98b1-7055-b64e-581f915ade43",
           "settings": {
             "section_title": "",
             "section_title_tag": "h2",
@@ -258,7 +258,7 @@
           }
         },
         "google_reviews_repocean_repocean_reviews_badge_c98kDU": {
-          "type": "shopify://apps/google-reviews-repocean/blocks/repocean-reviews-badge/019aa132-98b1-7055-b64e-581f915ade43",
+          "type": "shopify://apps/repocean-google-reviews/blocks/repocean-reviews-badge/019aa132-98b1-7055-b64e-581f915ade43",
           "disabled": true,
           "settings": {
             "bg": "#ffffff",
@@ -330,6 +330,7 @@
       "block_order": [
         "ai_gen_block_c2e890c_AK8fkg"
       ],
+      "disabled": true,
       "settings": {}
     }
   },
