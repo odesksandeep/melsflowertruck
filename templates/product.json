@@ -107,6 +107,7 @@
         },
         "custom_liquid_jLyqqA": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<p>🚚 Same Day Auckland Wide Delivery</p><p>🌸 Fresh Flowers Guaranteed</p><p>💰 Delivery from $10 - $18</p>"
           }
@@ -114,9 +115,18 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Delivery",
+            "heading": "Delivery Information",
             "icon": "truck",
             "content": "<p>AUCKLAND WIDE DELIVERY</p><p>Order before 12pm for same day delivery.</p><p>Monday - Friday</p><p>Local Delivery Postcode 1072: $10</p><p>Local Delivery Postcode 1071: $14</p><p>Auckland Wide Delivery: $18</p><p>Same day Auckland Wide business addresses must be ordered prior to 9am.</p><p>PICKUP</p><p>From SwimTastic or my studio in St Johns.</p><p>Monday - Friday: 9:00 - 6:00</p><p>Saturday: 9:00 - 12:00</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_8pYaUA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Pick - up Information",
+            "icon": "check_mark",
+            "content": "",
             "page": ""
           }
         },
@@ -133,13 +143,6 @@
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": ""
-          }
-        },
-        "text_xiGRzq": {
-          "type": "text",
-          "settings": {
-            "text": "Flower Care & Quality FAQs",
-            "text_style": "subtitle"
           }
         },
         "collapsible_tab_Pcggfz": {
@@ -186,9 +189,9 @@
         "text_CmefX7",
         "custom_liquid_jLyqqA",
         "collapsible-row-1",
+        "collapsible_tab_8pYaUA",
         "collapsible_tab_tRTmW9",
         "custom_liquid_jif7ND",
-        "text_xiGRzq",
         "collapsible_tab_Pcggfz",
         "collapsible_tab_XbUDap",
         "collapsible_tab_RmFeBW"
@@ -202,6 +205,50 @@
         "enable_video_looping": false,
         "padding_top": 8,
         "padding_bottom": 0
+      }
+    },
+    "image_with_text_PRiPXT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JqAa3c": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_LARL76": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_xBj4jk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_JqAa3c",
+        "text_LARL76",
+        "button_xBj4jk"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1770164096fef034af": {
@@ -299,93 +346,6 @@
         "include_margins": true
       }
     },
-    "image_with_text_PRiPXT": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_JqAa3c": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_LARL76": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_xBj4jk": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_JqAa3c",
-        "text_LARL76",
-        "button_xBj4jk"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_b3UtPM": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_mNViHb": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand</p>",
-            "heading_size": "h1"
-          }
-        },
-        "text_QJXfLG": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_qeaHTU": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_mNViHb",
-        "text_QJXfLG",
-        "button_qeaHTU"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -435,9 +395,8 @@
   },
   "order": [
     "main",
-    "1770164096fef034af",
     "image_with_text_PRiPXT",
-    "rich_text_b3UtPM",
+    "1770164096fef034af",
     "product-recommendations",
     "178693077809631fc4"
   ]
