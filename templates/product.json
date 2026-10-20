@@ -66,12 +66,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
@@ -79,6 +73,12 @@
             "icon": "truck",
             "content": "<p><strong>Fresh flowers delivered Auckland‑wide.</strong></p><p>&nbsp;Carefully gift‑wrapped and delivered with a wet wrap for freshness.</p><p>Order before 12pm for same‑day delivery (Monday–Friday). &nbsp;</p><p><br/>Local Delivery Postcode 1072: $10<br/>Local Delivery Postcode 1071: $14<br/>Auckland‑Wide Delivery: $18</p><p>Same‑day delivery to business addresses must be ordered before 9am.</p><p><strong>Delivered by Premier Floral Couriers — specialists in handling fresh flowers.</strong></p>",
             "page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
           }
         },
         "judge_me_reviews_review_snippet_widget_TWmnta": {
@@ -187,8 +187,8 @@
         "collapsible_tab_gB3tPm",
         "variant_picker_ReYDz8",
         "quantity_selector",
-        "buy_buttons",
         "collapsible-row-1",
+        "buy_buttons",
         "judge_me_reviews_review_snippet_widget_TWmnta",
         "text_CmefX7",
         "custom_liquid_jLyqqA",
