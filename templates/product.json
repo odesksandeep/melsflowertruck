@@ -117,7 +117,7 @@
           "settings": {
             "heading": "Delivery Information",
             "icon": "truck",
-            "content": "<p>AUCKLAND WIDE DELIVERY</p><p>Order before 12pm for same day delivery.</p><p>Monday - Friday</p><p>Local Delivery Postcode 1072: $10</p><p>Local Delivery Postcode 1071: $14</p><p>Auckland Wide Delivery: $18</p><p>Same day Auckland Wide business addresses must be ordered prior to 9am.</p><p>PICKUP</p><p>From SwimTastic or my studio in St Johns.</p><p>Monday - Friday: 9:00 - 6:00</p><p>Saturday: 9:00 - 12:00</p>",
+            "content": "<p>AUCKLAND WIDE DELIVERY</p><p>Order before 12pm for same day delivery.</p><p>Monday - Friday</p><p>Local Delivery Postcode 1072: $10</p><p>Local Delivery Postcode 1071: $14</p><p>Auckland Wide Delivery: $18</p><p>Same day Auckland Wide business addresses must be ordered prior to 9am.</p>",
             "page": ""
           }
         },
@@ -126,7 +126,7 @@
           "settings": {
             "heading": "Pick - up Information",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p>PICKUP</p><p>From SwimTastic or my studio in St Johns.</p><p>Monday - Friday: 9:00 - 6:00</p><p>Saturday: 9:00 - 12:00</p>",
             "page": ""
           }
         },
