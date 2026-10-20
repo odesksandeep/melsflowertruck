@@ -81,6 +81,7 @@
     },
     "custom_liquid_rpBJHj": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<style>\n  .icon-row {\n    display: flex;\n    justify-content: center;\n    gap: 16px;\n    padding: 16px;\n    flex-wrap: nowrap;\n  }\n  .icon-row__item {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n    min-width: 70px;\n  }\n  .icon-row__item img {\n    width: 40px;\n    height: 40px;\n    object-fit: contain;\n  }\n  .icon-row__item p {\n    margin-top: 8px;\n    font-size: 11px;\n  }\n  @media screen and (min-width: 750px) {\n    .icon-row {\n      gap: 80px;\n      padding: 24px 48px;\n    }\n    .icon-row__item img {\n      width: 50px;\n      height: 50px;\n    }\n    .icon-row__item p {\n      font-size: 12px;\n    }\n  }\n</style>\n\n<div class=\"icon-row\">\n\n  <div class=\"icon-row__item\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0631/0225/5283/files/delivery_4ea6b365-2c27-4476-89f5-cac1b217a652.png?v=1786767659\" alt=\"Delivery\" loading=\"lazy\">\n    <p>Trusted Auckland Florist</p>\n  </div>\n\n  <div class=\"icon-row__item\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0631/0225/5283/files/flowers_2.png?v=1786770418\" alt=\"Fresh Flowers\" loading=\"lazy\">\n    <p>Fresh Flowers Guaranteed</p>\n  </div>\n\n  <div class=\"icon-row__item\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0631/0225/5283/files/bouquet_f775e9eb-396e-4cb4-8f8e-e6fef760afd4.png?v=1786767765\" alt=\"Bouquet\" loading=\"lazy\">\n    <p>Value For Money</p>\n  </div>\n\n</div>",
@@ -91,6 +92,7 @@
     },
     "custom_liquid_q7qxJE": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<style>\n@media screen and (min-width: 750px) {\n  #template--16178007146675__16623301353cc5b632 .banner__content .banner__text,\n  #template--16178007146675__16623301353cc5b632 .banner__content .banner__text p,\n  #template--16178007146675__16623301353cc5b632 .banner__text,\n  #template--16178007146675__16623301353cc5b632 .banner__text p,\n  #template--16178007146675__16623301353cc5b632 .image-banner__text-wrapper,\n  #template--16178007146675__16623301353cc5b632 .image-banner__text-wrapper p,\n  #template--16178007146675__16623301353cc5b632 .rte,\n  #template--16178007146675__16623301353cc5b632 .rte p {\n    color: #ffffff !important;\n  }\n}\n</style>",
@@ -141,6 +143,7 @@
         "86b52fb1-4cce-452c-97fa-cef4b37ab8ac",
         "45945be1-a229-4f63-93f6-003a14709ac2"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -282,6 +285,7 @@
         "template--15859280380083__2e58f238-6c94-4b65-a718-4bef1ad52876-1673259461abab7335-1",
         "template--15859280380083__2e58f238-6c94-4b65-a718-4bef1ad52876-1673259461abab7335-2"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -313,6 +317,7 @@
         "template--15859280380083__2fd6ebb9-529e-4eb3-8090-1d78891e6823-166890938048a4c229-0",
         "template--15859280380083__2fd6ebb9-529e-4eb3-8090-1d78891e6823-166890938048a4c229-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/f4df4f30-564e-44db-a30f-4bf9fd701602.webp",
         "height": "large",
@@ -369,6 +374,7 @@
         "1662336917a0307bbe-1",
         "1662336917a0307bbe-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -704,7 +710,7 @@
       "type": "apps",
       "blocks": {
         "google_reviews_repocean_repocean_reviews_carousel_KEtiTG": {
-          "type": "shopify://apps/google-reviews-repocean/blocks/repocean-reviews-carousel/019aa132-98b1-7055-b64e-581f915ade43",
+          "type": "shopify://apps/repocean-google-reviews/blocks/repocean-reviews-carousel/019aa132-98b1-7055-b64e-581f915ade43",
           "settings": {
             "section_title": "",
             "section_title_tag": "h2",
@@ -753,18 +759,22 @@
           }
         },
         "google_reviews_repocean_repocean_reviews_badge_aeXAr8": {
-          "type": "shopify://apps/google-reviews-repocean/blocks/repocean-reviews-badge/019aa132-98b1-7055-b64e-581f915ade43",
+          "type": "shopify://apps/repocean-google-reviews/blocks/repocean-reviews-badge/019aa132-98b1-7055-b64e-581f915ade43",
           "disabled": true,
           "settings": {
+            "show_rating_number": true,
+            "click_behavior": "scroll",
             "bg": "#ffffff",
             "text": "#111827",
             "star_color": "#f4b400",
-            "border_color": "#dedede",
-            "radius": 14,
+            "layout_style": "horizontal",
+            "alignment": "auto",
             "padding_top": 20,
             "padding_bottom": 20,
             "badge_width": 0,
-            "show_rating_number": true,
+            "show_border": true,
+            "border_color": "#dedede",
+            "radius": 14,
             "show_avatars": true,
             "max_avatars": 4,
             "avatar_size": 22,
