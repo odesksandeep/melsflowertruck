@@ -99,6 +99,7 @@
         },
         "text_CmefX7": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Beautiful, Fresh flowers. Chosen and arranged by Mel - You won't be disappointed.",
             "text_style": "subtitle"
@@ -261,15 +262,19 @@
           "type": "shopify://apps/repocean-google-reviews/blocks/repocean-reviews-badge/019aa132-98b1-7055-b64e-581f915ade43",
           "disabled": true,
           "settings": {
+            "show_rating_number": true,
+            "click_behavior": "scroll",
             "bg": "#ffffff",
             "text": "#111827",
             "star_color": "#f4b400",
-            "border_color": "#dedede",
-            "radius": 14,
+            "layout_style": "horizontal",
+            "alignment": "auto",
             "padding_top": 20,
             "padding_bottom": 20,
             "badge_width": 0,
-            "show_rating_number": true,
+            "show_border": true,
+            "border_color": "#dedede",
+            "radius": 14,
             "show_avatars": true,
             "max_avatars": 4,
             "avatar_size": 22,
