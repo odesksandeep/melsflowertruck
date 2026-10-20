@@ -72,6 +72,15 @@
             "show_dynamic_checkout": false
           }
         },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Delivery Information",
+            "icon": "truck",
+            "content": "<p><strong>Fresh flowers delivered Auckland‑wide.</strong></p><p>&nbsp;Carefully gift‑wrapped and delivered with a wet wrap for freshness.</p><p>Order before 12pm for same‑day delivery (Monday–Friday). &nbsp;</p><p><br/>Local Delivery Postcode 1072: $10<br/>Local Delivery Postcode 1071: $14<br/>Auckland‑Wide Delivery: $18</p><p>Same‑day delivery to business addresses must be ordered before 9am.</p><p><strong>Delivered by Premier Floral Couriers — specialists in handling fresh flowers.</strong></p>",
+            "page": ""
+          }
+        },
         "judge_me_reviews_review_snippet_widget_TWmnta": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
@@ -112,15 +121,6 @@
             "custom_liquid": "<p>🚚 Same Day Auckland Wide Delivery</p><p>🌸 Fresh Flowers Guaranteed</p><p>💰 Delivery from $10 - $18</p>"
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Delivery Information",
-            "icon": "truck",
-            "content": "<p><strong>Fresh flowers delivered Auckland‑wide. Carefully gift‑wrapped and delivered with a wet wrap for freshness.</strong></p><p><strong>Order before 12pm for same‑day delivery (Monday–Friday).</strong> &nbsp;<br/>Local Delivery Postcode 1072: $10<br/>Local Delivery Postcode 1071: $14<br/>Auckland‑Wide Delivery: $18</p><p>Same‑day delivery to business addresses must be ordered before 9am.</p><p><strong>Delivered by Premier Floral Couriers — specialists in handling fresh flowers.</strong></p>",
-            "page": ""
-          }
-        },
         "collapsible_tab_8pYaUA": {
           "type": "collapsible_tab",
           "settings": {
@@ -147,6 +147,7 @@
         },
         "collapsible_tab_Pcggfz": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "What’s so good about market‑fresh flowers?",
             "icon": "question_mark",
@@ -156,6 +157,7 @@
         },
         "collapsible_tab_XbUDap": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "How long should flowers last?",
             "icon": "question_mark",
@@ -165,6 +167,7 @@
         },
         "collapsible_tab_RmFeBW": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "How can I help my flowers last longer?",
             "icon": "question_mark",
@@ -185,10 +188,10 @@
         "variant_picker_ReYDz8",
         "quantity_selector",
         "buy_buttons",
+        "collapsible-row-1",
         "judge_me_reviews_review_snippet_widget_TWmnta",
         "text_CmefX7",
         "custom_liquid_jLyqqA",
-        "collapsible-row-1",
         "collapsible_tab_8pYaUA",
         "collapsible_tab_tRTmW9",
         "custom_liquid_jif7ND",
