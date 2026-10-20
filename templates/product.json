@@ -117,7 +117,7 @@
           "settings": {
             "heading": "Delivery Information",
             "icon": "truck",
-            "content": "<p>AUCKLAND WIDE DELIVERY</p><p>Order before 12pm for same day delivery.</p><p>Monday - Friday</p><p>Local Delivery Postcode 1072: $10</p><p>Local Delivery Postcode 1071: $14</p><p>Auckland Wide Delivery: $18</p><p>Same day Auckland Wide business addresses must be ordered prior to 9am.</p>",
+            "content": "<p><strong>Fresh flowers delivered Auckland‑wide. Carefully gift‑wrapped and delivered with a wet wrap for freshness.</strong></p><p><strong>Order before 12pm for same‑day delivery (Monday–Friday).</strong> &nbsp;<br/>Local Delivery Postcode 1072: $10<br/>Local Delivery Postcode 1071: $14<br/>Auckland‑Wide Delivery: $18</p><p>Same‑day delivery to business addresses must be ordered before 9am.</p><p><strong>Delivered by Premier Floral Couriers — specialists in handling fresh flowers.</strong></p>",
             "page": ""
           }
         },
@@ -126,7 +126,7 @@
           "settings": {
             "heading": "Pick - up Information",
             "icon": "check_mark",
-            "content": "<p>PICKUP</p><p>From SwimTastic or my studio in St Johns.</p><p>Monday - Friday: 9:00 - 6:00</p><p>Saturday: 9:00 - 12:00</p>",
+            "content": "<p><strong>Pickup available from SwimTastic or my studio in St Johns.</strong> &nbsp;<br/>Simply select your pickup time at checkout and Mel will confirm the pickup address.<br/>Don’t worry — both locations are within 2 minutes of each other.</p><p><strong>Need flowers outside these hours?</strong> &nbsp;<br/>Call Mel — she may be able to help: <strong>021 234 7844</strong></p><p><strong>Monday–Friday:</strong> 9:00am – 6:00pm<br/><strong>Saturday:</strong> 9:00am – 12:00pm</p>",
             "page": ""
           }
         },
@@ -237,6 +237,7 @@
         "text_LARL76",
         "button_xBj4jk"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "height": "adapt",
